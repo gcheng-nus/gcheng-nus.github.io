@@ -19,7 +19,3 @@ National University of Singapore (NUS)
 gcheng [AT] u [AT] nus [AT] edu  
 
 [[CV](https://drive.google.com/file/d/105ISIw_Ah6uXNr3j7HwcMvFtbu-i9MwJ/view?usp=sharing)]  
-Find me on [__SSRN__](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3036482) and [__ResearchGate__](https://www.researchgate.net/profile/Cheng_Guang).
-  
-
-[[CV](https://drive.google.com/file/d/105ISIw_Ah6uXNr3j7HwcMvFtbu-i9MwJ/view?usp=sharing)]  
