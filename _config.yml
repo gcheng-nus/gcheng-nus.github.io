@@ -82,14 +82,11 @@ analytics:
 author:
   name             : "Guang Cheng"
   avatar           : "profile.png"
-  bio              : "Ph.D. Student"
-  employer         : "Institute of Operations Research and Analytics (IORA)"
-  employer         : "National University of Singapore (NUS)"
-  location         : "3 Research Link, Innovation 4.0, #04-01, Singapore 117602"
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # bio              : "Ph.D. Student"
+  # # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Bu71TnQAAAAJ&hl=en"
-  SSRN             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3036482"
-  email            : "gcheng@u@nus@edu"
+  # SSRN             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3036482"
+  # email            : "gcheng@u@nus@edu"
   researchgate     : "https://www.researchgate.net/profile/Cheng_Guang"
 
 
