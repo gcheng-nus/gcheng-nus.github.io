@@ -1,5 +1,8 @@
 ---
 layout: single
+title: "awards"
+permalink: /awards/
+author_profile: true
 ---
 
 - NUS Research Scholarship, National University of Singapore, Singapore, 2020
