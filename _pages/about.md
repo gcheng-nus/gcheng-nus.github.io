@@ -6,8 +6,9 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
-
+---  
+  
+  
 Ph.D. Student 
 
 Institute of Operations Research and Analytics (IORA)  
