@@ -1,7 +1,3 @@
----
-layout: single
----
-
 ## Education
 
 **August 2020 -- Present**  
