@@ -1,0 +1,20 @@
+# main links links
+main:
+
+  - title: "Education"
+    url: /education/
+
+  - title: "Publications"
+    url: /publications/
+    
+  - title: "Professional Experience"
+    url: /experience/  
+
+  - title: "Honors and Awards"
+    url: /awards/    
+    
+  - title: "CV"
+    url: /cv/
+    
+  - title: "Guide"
+    url: /markdown/
