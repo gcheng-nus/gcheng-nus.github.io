@@ -82,12 +82,14 @@ analytics:
 author:
   name             : "Guang Cheng"
   avatar           : "profile.png"
-  bio              : "I am currently a Ph.D. student in Institute of Operations Research and Analytics (IORA) at National University of Singapore (NUS). My primary research interests are in healthcare operations management and data analytics."
-  # employer         :
+  bio              : "Ph.D. Student"
+  employer         : "Institute of Operations Research and Analytics (IORA)"
+  employer         : "National University of Singapore (NUS)"
+  address          : "3 Research Link, Innovation 4.0, #04-01, Singapore 117602"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Bu71TnQAAAAJ&hl=en"
   SSRN             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3036482"
-  email            :
+  email            : "gcheng@u@nus@edu"
   researchgate     : "https://www.researchgate.net/profile/Cheng_Guang"
 
 
