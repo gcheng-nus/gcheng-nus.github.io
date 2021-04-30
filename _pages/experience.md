@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /experience/
-title: "Professional Experience"
+title: "Experience"
 author_profile: true
 ---
 
