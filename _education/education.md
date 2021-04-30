@@ -1,4 +1,9 @@
-## Education
+---
+layout: single
+title: "Education"
+permalink: /education/
+author_profile: true
+---
 
 **August 2020 -- Present**  
 National University of Singapore, Singapore  
