@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "awards"
+title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
