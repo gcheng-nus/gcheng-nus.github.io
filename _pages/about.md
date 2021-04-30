@@ -10,7 +10,7 @@ redirect_from:
  
 Ph.D. Student  
 
-Institute of Operations Research and Analytics (IORA)  
+Institute of Operations Research and Analytics (IORA)   
 
 National University of Singapore (NUS)  
 
