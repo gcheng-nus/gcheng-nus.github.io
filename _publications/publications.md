@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: default
 ---
 
 ## Publications
+
 ### Working Papers
 1. Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. ***Extubation decision making with predictive information for mechanically ventilated patients in ICU***. [[SSRN](https://ssrn.com/abstract=3397530)]  
 
