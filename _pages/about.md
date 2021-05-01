@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---  
   
-  
+<br/>  
 Ph.D. Student  
 Institute of Operations Research and Analytics (IORA)   
 National University of Singapore (NUS)  
