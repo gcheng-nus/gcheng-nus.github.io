@@ -208,6 +208,12 @@
 .ai-zotero-square:before {
   content: "\e861";
 }
+.ai-ssrn:before {
+  content: "\e916";
+}
+.ai-ssrn-square:before {
+  content: "\e917";
+}
 /*  Duplication of the FontAwesome style classes using 'ai' in place of 'fa'. */
 .ai-lg {
   font-size: 1.33333333em;
