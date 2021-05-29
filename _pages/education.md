@@ -5,17 +5,14 @@ permalink: /education/
 author_profile: true
 ---
 
-**August 2020 -- Present**  
-National University of Singapore, Singapore  
+**National University of Singapore, Singapore**    2021 -- Present            
 Institute of Operations Research and Analytics  
 Ph.D. Student in Operations Research and Analytics
                    
-**September 2016 -- June 2021**    
-University of Science and Technology of China, China  
+**University of Science and Technology of China, China**   September 2016 -- June 2021     
 School of Management  
 M.S. in Management Science and Engineering
                    
-**September 2012 -- June 2016**       
-Jiangnan University, China  
+**Jiangnan University, China**         September 2012 -- June 2016    
 Business School  
 B.S. in Industrial Engineering
