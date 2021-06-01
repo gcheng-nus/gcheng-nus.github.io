@@ -12,7 +12,7 @@ redirect_from:
 Ph.D. Student  
 Institute of Operations Research and Analytics (IORA)   
 National University of Singapore (NUS)  
-3 Research Link, Innovation 4.0, #04-01, Singapore 117602  
+#04-01, Innovation 4.0, 3 Research Link, Singapore 117602  
 Email: gcheng [AT] u [DOT] nus [DOT] edu  
 
 Research Interest: Healthcare Operations Management
