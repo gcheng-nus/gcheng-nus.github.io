@@ -9,7 +9,7 @@ redirect_from:
 ---  
   
 <br/>  
-<p> Ph.D. Student  <p>
+<p> Ph.D. Student  </p>
 Institute of Operations Research and Analytics (IORA)   
 National University of Singapore (NUS)  
 #04-01, Innovation 4.0, 3 Research Link, Singapore 117602  
