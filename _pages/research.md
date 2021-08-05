@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Working Papers
-1. Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. ***Extubation decision making with predictive information for mechanically ventilated patients in ICU***. Major Revision at *Management Science*. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]   
+1. Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. ***Extubation decision making with predictive information for mechanically ventilated patients in ICU***. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]   
 2. Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. ***On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore***.
 
 ## Published Papers
