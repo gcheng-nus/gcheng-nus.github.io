@@ -9,7 +9,7 @@ redirect_from:
 ---  
   
 <br/>  
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Ph.D. Student</span>
+<span style="font-family: Serif;">Ph.D. Student</span>
 
 Institute of Operations Research and Analytics (IORA)   
 National University of Singapore (NUS)  
