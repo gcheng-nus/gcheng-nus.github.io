@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "<span style="font-family: Arial;">Cheng Guang</span>"
+title: "Cheng Guang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
