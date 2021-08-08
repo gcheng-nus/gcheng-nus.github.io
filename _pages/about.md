@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Guang Cheng"
+title: "<span style="font-family: Arial;">Cheng Guang</span>"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,7 +9,7 @@ redirect_from:
 ---  
   
 <br/>  
-<span style="font-family: Arial Sans-serif;">Ph.D. Student</span>
+<span style="font-family: Arial;">Ph.D. Student</span>
 
 Institute of Operations Research and Analytics (IORA)   
 National University of Singapore (NUS)  
