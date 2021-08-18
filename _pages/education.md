@@ -4,7 +4,7 @@ title: "Education"
 permalink: /education/
 author_profile: true
 ---
-
+<br>
 <p style="font-size: 16px;">
 	<b>National University of Singapore, Singapore</b><br>
 	Institute of Operations Research and Analytics<br>
