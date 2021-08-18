@@ -4,7 +4,6 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
 <h2>Research Interests</h2>
 <ul style="font-size: 16px;">
 	<li>Medical Decision Making</li>

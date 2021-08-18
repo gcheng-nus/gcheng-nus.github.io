@@ -4,7 +4,6 @@ permalink: /experience/
 title: "Experience"
 author_profile: true
 ---
-
 <ol style="font-size: 16px;">
 	<li>Research Assistant, Lee Kong Chian School of Business, Singapore Management University, July 2019 - June 2020</li>
 	<li>Research Assistant, Lee Kong Chian School of Business, Singapore Management University, August 2018 - November 2018</li>
