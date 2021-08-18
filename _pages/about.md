@@ -14,7 +14,6 @@ National University of Singapore (NUS)
 #04-01, Innovation 4.0, 3 Research Link, Singapore 117602   
 Email: gcheng [AT] u [DOT] nus [DOT] edu  
 
-<br>
 <h2>About Me</h2>
 <p>
 Hi, I'm Guang CHENG! I'm currently a second-year Ph.D. student at National University of Singapore.
