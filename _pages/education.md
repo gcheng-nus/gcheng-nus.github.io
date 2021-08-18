@@ -19,7 +19,7 @@ author_profile: true
 	Advisor: <a href="https://www.wi.tum.de/tum-campus-heilbronn/center-for-digital-transformation/prof-dr-xie/" target="_blank" style="color: black">Jingui Xie</a>,  <a href="https://sites.google.com/site/zhengzhichao1985/home" target="_blank" style="color: black">Zhichao Zheng</a> (external)  
 </p>      
    
-<p>
+<p style="font-size: 16px;">
 	<b>Jiangnan University, China</b><br>
 	Business School  <br>
 	B.S. in Industrial Engineering, 2016
