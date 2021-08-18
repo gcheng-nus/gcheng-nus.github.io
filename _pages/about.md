@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cheng Guang"
+title: "Guang CHENG"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,7 +16,7 @@ National University of Singapore (NUS)
 Email: gcheng [AT] u [DOT] nus [DOT] edu  
 
 <h2>About Me</h2>
-<p style="font-family:Arial;">
+<p style="font-family:Times New Roman;">
 Hi, I'm Guang CHENG! I'm currently a second-year Ph.D. student at National University of Singapore.
 I am fortunate to be advised by Joel Goh.
 My primary research interests are in data-driven modeling with applications in healthcare operations management and medical decision making.
