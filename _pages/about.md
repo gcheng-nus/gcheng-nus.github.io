@@ -9,7 +9,7 @@ redirect_from:
 ---  
 
 <h2>Info</h2>
-<p style="font-size: 12px;">
+<p style="font-size: 14px;">
   Ph.D. Student  <br> 12
   Institute of Operations Research and Analytics (IORA)  <br>
   National University of Singapore (NUS)   <br>
