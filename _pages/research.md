@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-### Research Interests  
+## Research Interests  
 - Medical Decision Making  
 - Healthcare Operations Management 
 
