@@ -9,7 +9,7 @@ redirect_from:
 ---  
 
 <h2>Info</h2>
-<p style="font-family:Arial; font-weight:100">
+<p>
   <font size=2.5>
   Ph.D. Student  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
