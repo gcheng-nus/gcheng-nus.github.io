@@ -9,13 +9,13 @@ redirect_from:
 ---  
 
 <h2>Info</h2>
-  <font size=2.5>
+<p style="font-family:Arial; font-weight:100; font-size=9">
   Ph.D. Student  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
   National University of Singapore (NUS)   <br>
   #04-01, Innovation 4.0, 3 Research Link, Singapore 117602   <br>
   Email: gcheng [AT] u [DOT] nus [DOT] edu  <br>
-</font>
+</p>
 
 <h2>About Me</h2>
 <p style="font-family:Arial; font-weight:100">
