@@ -5,8 +5,8 @@ permalink: /education/
 author_profile: true
 ---
 <br>
+<b style="font-size: 16px;">National University of Singapore, Singapore</b> 
 <p style="font-size: 16px;">
-	<b>National University of Singapore, Singapore</b><br>
 	Institute of Operations Research and Analytics<br>
 	Ph.D. Student in Operations Research and Analytics, 2020 -- Present<br>
 	Advisor: <a href="https://www.joelgoh.net/" target="_blank" style="color: black">Joel Goh</a>  
