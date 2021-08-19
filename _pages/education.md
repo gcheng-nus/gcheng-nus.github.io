@@ -5,7 +5,7 @@ permalink: /education/
 author_profile: true
 ---
 <br>
-<p style="font-size: 16px;">
+<p style="font-size: 16px; padding-top: 0px;">
 	<b>National University of Singapore, Singapore</b><br>
 	Institute of Operations Research and Analytics<br>
 	Ph.D. Student in Operations Research and Analytics, 2020 -- Present<br>
