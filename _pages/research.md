@@ -9,6 +9,7 @@ author_profile: true
 <ul style="font-size: 16px; margin-top: -1.2em">
 	<li>Medical Decision Making</li>
 	<li>Healthcare Operations Management</li>
+	<li>Scheduling System</li>
 </ul>
 <b style="font-size: 20px">Working Papers</b>
 <ol style="font-size: 16px; margin-top: -1.2em">
