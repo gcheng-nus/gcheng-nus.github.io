@@ -13,8 +13,8 @@ author_profile: true
 </ul>
 <b style="font-size: 20px">Working Papers</b>
 <ol style="font-size: 16px; margin-top: -1.2em">
-	<li>Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. Extubation decision making with predictive information for mechanically ventilated patients in ICU. Major revision at <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]   </li>
-	<li>Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore. Minor revision at INFORMS Journal on Applied Analytics.</li>
+	<li>Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. Extubation decision making with predictive information for mechanically ventilated patients in ICU. Major revision at <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
+	<li>Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore. <i>Minor revision at INFORMS Journal on Applied Analytics</i>.</li>
 </ol>
 <b style="font-size: 20px">Published Paper</b>
 <ol style="font-size: 16px; margin-top: -1.2em;">
