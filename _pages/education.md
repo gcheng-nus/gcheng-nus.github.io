@@ -1,9 +1,10 @@
 ---
 layout: single
-title: "Education"
+# title: "Education"
 permalink: /education/
 author_profile: true
 ---
+<title>Education</title>
 <br>
 <body style="font-family: Serif;">
 
