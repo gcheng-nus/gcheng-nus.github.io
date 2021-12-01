@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---  
 
-<body style="font-family: Time New Roman;">
+<body style="font-family: Serif;">
 
 <h2 style="margin-top: 1em;">Info</h2> 
 <p>
