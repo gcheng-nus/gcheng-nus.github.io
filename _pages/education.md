@@ -5,6 +5,8 @@ permalink: /education/
 author_profile: true
 ---
 <br>
+<body style="font-family: Time New Roman;">
+
 <p style="font-size: 16px; margin-top: -1em;">
 	<b>National University of Singapore, Singapore</b><br>
 	Ph.D. Student in Operations Research and Analytics, 2020 - Present<br>
@@ -21,3 +23,5 @@ author_profile: true
 	<b>Jiangnan University, China</b><br>
 	Bachelor in Industrial Engineering, 2016
 </p>
+
+</body>
