@@ -8,8 +8,10 @@ redirect_from:
   - /about.html
 ---  
 <br>
+<body style="font-family: Time New Roman;">
+
 <b style="font-size: 20px;">Info</b>
-<p style="font-size: 16px; margin-top: -1em">
+<p style="font-size: 16px; margin-top: -1em;">
   Ph.D. Student  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
   National University of Singapore (NUS)   <br>
@@ -23,3 +25,5 @@ Hi, I'm Guang CHENG! I'm currently a second-year Ph.D. student at National Unive
 I am fortunate to be advised by Joel Goh.
 My primary research interests are in data-driven modeling with applications in healthcare operations management and medical decision making.
 </p>
+
+</body>
