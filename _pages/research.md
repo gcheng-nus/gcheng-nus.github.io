@@ -7,7 +7,7 @@ author_profile: true
 <body>
 
 <h2 style="margin-top: 1em;">Research Interests</h2> 
-<ul style="font-size: 16px; margin-top: 0em; margin-bottom: 1.2em;">
+<ul style="font-size: 16px; margin-top: 0em; margin-bottom: 1.2em; font-family: Times New Roman;">
 	<li>Medical Decision Making</li>
 	<li>Healthcare Operations Management</li>
 	<li>Scheduling System</li>
