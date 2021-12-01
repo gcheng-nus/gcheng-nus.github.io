@@ -4,7 +4,6 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-<!-- <br> -->
 <body>
 
 <h2>Research Interests</h2> 
