@@ -11,7 +11,7 @@ redirect_from:
 <body style="font-family: Time New Roman;">
 
 <h2 style="margin-top: 1em;">Info</h2> 
-<p style="font-size: 16px; margin-top: 1em;">
+<p style="font-size: 18px; margin-top: 1em;">
   Ph.D. Student  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
   National University of Singapore (NUS)   <br>
