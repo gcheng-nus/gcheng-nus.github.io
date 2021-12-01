@@ -6,7 +6,7 @@ author_profile: true
 ---
 <body>
 
-<h2 style="margin-bottom: 0.3em">Research Interests</h2> 
+<h2>Research Interests</h2> 
 <ul style="font-size: 16px; margin-top: 0em">
 	<li>Medical Decision Making</li>
 	<li>Healthcare Operations Management</li>
