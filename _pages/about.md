@@ -7,10 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---  
-<br>
+
 <body style="font-family: Time New Roman;">
 
-<b style="font-size: 20px;">Info</b>
+<h2 style="margin-top: 1em;">Info</h2> 
 <p style="font-size: 16px; margin-top: 1em;">
   Ph.D. Student  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
@@ -19,7 +19,7 @@ redirect_from:
   Email: gcheng [AT] u [DOT] nus [DOT] edu  <br>
 </p>
 
-<b style="font-size: 20px;">About Me</b>
+<h2>About Me</h2>
 <p style="font-size: 16px; margin-top: 1em">
 Hi, I'm Guang CHENG! I'm currently a second-year Ph.D. student at National University of Singapore.
 I am fortunate to be advised by Joel Goh.
