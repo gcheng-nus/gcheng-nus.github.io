@@ -6,7 +6,6 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  margin-right: 5em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -33,7 +32,6 @@
       @include full();
     }
   }
-  margin-right: 5em;
 }
 
 .page__title {
