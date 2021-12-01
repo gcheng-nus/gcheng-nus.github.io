@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-<body style="font-family: Sans-serif;">
+<body style="font-family: Time New Roman;">
 	
 <h2 style="margin-top: 1em; font-family: Time New Roman;">Research Interests</h2> 
 <ul style="margin-top: 0em; margin-bottom: 1.2em; line-height:100%;">
