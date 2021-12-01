@@ -17,6 +17,7 @@
 }
 
 .page {
+  margin-right: 5em;
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -381,7 +382,6 @@
 
 .page__related {
   margin-top: 2em;
-  margin-right: 5em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
   @include clearfix();
