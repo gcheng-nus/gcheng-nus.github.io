@@ -6,7 +6,7 @@ author_profile: true
 ---
 <body style="font-family: Time New Roman;">
 
-<ul style="font-size: 16px;">
+<ul>
 <li>NUS Research Scholarship, National University of Singapore, Singapore, 2020</li>
 <li>JData Data Mining Competition Top 10, JD.com, inc., China, 2017</li>
 <li>National Scholarship, Ministry of Education of People’s Republic of China, China, 2015</li>
