@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Guang CHENG"
+title: "Guang Cheng"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
