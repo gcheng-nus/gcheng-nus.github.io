@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 <br>
-<b style="font-size: 20px;">Research Interests</b> 
+<h2 style="font-size: 20px;">Research Interests</h2> 
 <ul style="font-size: 16px; margin-top: -1.2em">
 	<li>Medical Decision Making</li>
 	<li>Healthcare Operations Management</li>
