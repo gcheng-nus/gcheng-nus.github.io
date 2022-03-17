@@ -1,7 +1,7 @@
 ---
 layout: single
-permalink: /experience/
 title: "Experience"
+permalink: /experience/
 author_profile: true
 ---
 <body style="font-family: Serif;">

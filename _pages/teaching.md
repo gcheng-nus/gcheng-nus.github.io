@@ -1,7 +1,7 @@
 ---
 layout: single
-permalink: /teaching/
 title: "Teaching"
+permalink: /teaching/
 author_profile: true
 ---
 <body style="font-family: Serif;">
