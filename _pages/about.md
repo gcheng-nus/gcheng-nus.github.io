@@ -21,8 +21,8 @@ redirect_from:
 
 <h2>Bio</h2>
 <p>
-Hi, I'm Guang Cheng! I'm currently a second-year Ph.D. student at National University of Singapore.
-I am fortunate to be advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: black">Joel Goh</a>.
+Hi, I'm Guang Cheng! I'm currently a third-year Ph.D. student at National University of Singapore.
+I am advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: black">Joel Goh</a>.
 My primary research interests are in data-driven modeling and empirical analysis with applications in healthcare operations management and medical decision making.
 </p>
 
