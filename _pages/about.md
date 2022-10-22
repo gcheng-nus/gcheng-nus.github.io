@@ -12,7 +12,7 @@ redirect_from:
 
 <h2 style="margin-top: 1em;">Info</h2> 
 <p>
-  Ph.D. Student  <br>
+  Ph.D. Candidate  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
   National University of Singapore (NUS)   <br>
   #04-01, Innovation 4.0, 3 Research Link, Singapore 117602   <br>
