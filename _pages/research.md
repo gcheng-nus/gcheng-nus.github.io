@@ -8,9 +8,9 @@ author_profile: true
 	
 <h2 style="margin-top: 1em;">Research Interests</h2> 
 <ul style="margin-top: 0em; margin-bottom: 1.2em; line-height:100%;">
-	<li>Medical Decision Making</li>
+	<li>Data-driven Medical Decision Making</li>
 	<li>Healthcare Operations Management</li>
-	<li>Scheduling System</li>
+	<li>Empirical Healthcare Operations</li>
 </ul>
 
 <h2>Working Papers</h2>
