@@ -4,7 +4,7 @@ title: "Awards"
 permalink: /awards/
 author_profile: true
 ---
-<body style="font-family: Serif;">
+<body>
 
 <ul>
 <li>NUS Research Scholarship, National University of Singapore, Singapore, 2020</li>

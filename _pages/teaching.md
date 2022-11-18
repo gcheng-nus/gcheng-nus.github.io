@@ -4,7 +4,7 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-<body style="font-family: Serif;">
+<body>
 
 <h2 style="margin-top: 1em;">Teaching Assistant</h2>
 <ul>

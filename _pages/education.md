@@ -5,7 +5,7 @@ permalink: /education/
 author_profile: true
 ---
 <br>
-<body style="font-family: Serif;">
+<body>
 
 <p style="margin-top: -1em;">
 	<b>National University of Singapore, Singapore</b><br>
