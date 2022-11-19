@@ -16,7 +16,7 @@ redirect_from:
 <!-- <body> -->
 
 <!-- <h2 style="margin-top: 1em;">Info</h2>  -->
-<p>
+<p style="margin-top: 1em;">
   Ph.D. Candidate  <br>
   Institute of Operations Research and Analytics (IORA)  <br>
   National University of Singapore (NUS)   <br>
