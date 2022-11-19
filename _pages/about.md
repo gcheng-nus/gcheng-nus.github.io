@@ -12,7 +12,7 @@ redirect_from:
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 </style>
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
-<body style="font-family: Open Sans; font-style: light; font-size: 9pt;">
+<body style="font-family: Open Sans; font-style: light; font-size: 12pt;">
 <!-- <body> -->
 
 <h2 style="margin-top: 1em;">Info</h2> 
