@@ -11,12 +11,7 @@ author_profile: true
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
 <body style="font-family: Open Sans; font-style: light; font-size: 12pt;">
 
-<h2 style="margin-top: 1em;">Research Interests</h2> 
-<ul style="margin-top: 0em; margin-bottom: 1.2em; line-height:100%;">
-	<li>Data-driven Medical Decision Making</li>
-	<li>Healthcare Operations Management</li>
-	<li>Empirical Healthcare Operations</li>
-</ul>
+
 
 <h2>Working Paper</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
