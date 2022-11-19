@@ -10,7 +10,7 @@ author_profile: true
 </style>
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
 <body style="font-family: Open Sans; font-style: light; font-size: 12pt;">
-	
+
 <h2 style="margin-top: 1em;">Research Interests</h2> 
 <ul style="margin-top: 0em; margin-bottom: 1.2em; line-height:100%;">
 	<li>Data-driven Medical Decision Making</li>
