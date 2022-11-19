@@ -37,7 +37,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-family: Serif;
+  font-family: $sans-serif;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -56,7 +56,7 @@
     /* border-bottom: 1px solid $border-color; */
     margin-top: 0.3em;
     margin-bottom: 0.1em;
-    font-family: Serif;
+    font-family: $sans-serif;
   }
 
   p, li, dl {
