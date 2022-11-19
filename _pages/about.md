@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---  
 
-<!-- <body style="font-family: Serif;"> -->
-<body>
+<body style="font-family: sans-serif;">
+<!-- <body> -->
 
 <h2 style="margin-top: 1em;">Info</h2> 
 <p>
