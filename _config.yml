@@ -88,7 +88,7 @@ author:
   SSRN             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3036482"
   email            : "gcheng@u.nus.edu"
   researchgate     : "https://www.researchgate.net/profile/Cheng_Guang"
-  orcid            : "https://orcid.org/0000-0002-5353-8088"
+  # orcid            : "https://orcid.org/0000-0002-5353-8088"
   CV               : "https://gcheng-nus.github.io/CV/CV_gcheng.pdf"
 
 
