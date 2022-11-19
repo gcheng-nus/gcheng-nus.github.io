@@ -13,7 +13,7 @@ redirect_from:
 </style>
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
 <body style="font-family: Open Sans; font-style: light; font-size: 9pt;">
-<body>
+<!-- <body> -->
 
 <h2 style="margin-top: 1em;">Info</h2> 
 <p>
