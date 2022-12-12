@@ -24,7 +24,7 @@ author_profile: true
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><b>On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore</b> <br>
 	Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng.
-	<i>INFORMS Journal on Applied Analytics</i>, forthcoming. [<a href="https://ssrn.com/abstract=3955828" target="_blank">SSRN</a>, <a href="https://pubsonline.informs.org/doi/abs/10.1287/inte.2022.1117" target="_blank">Link</a>]</li>
+	<i>INFORMS Journal on Applied Analytics</i>, 2022, 52(6):524-538. [<a href="https://ssrn.com/abstract=3955828" target="_blank">SSRN</a>, <a href="https://pubsonline.informs.org/doi/abs/10.1287/inte.2022.1117" target="_blank">Link</a>]</li>
 	<!--  -->
 	<li><b>To extubate or not to extubate: Risk factors for extubation failure and deterioration with further mechanical ventilation</b> <br>
 	Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
