@@ -13,13 +13,13 @@ author_profile: true
 
 <h2 style="margin-top: 1em;">Instructor</h2>
 <ul>
-	<li>DAO 1704 Decision Analytics (Undergraduate), Spring 2023</li>
+	<li>DAO1704 Decision Analytics using Spreadsheets (Undergraduate), Spring 2023</li>
 </ul>
 
 <h2 style="margin-top: 1em;">Teaching Assistant</h2>
 <ul>
-	<li>IE 4214 Revenue Management and Pricing Analytics (Undergraduate), Spring 2022</li>
-	<li>DBA 5103 Operations Research and Analytics (Master), Fall 2022</li>
+	<li>IE4214 Revenue Management and Pricing Analytics (Undergraduate), Spring 2022</li>
+	<li>DBA5103 Operations Research and Analytics (Master), Fall 2022</li>
 </ul>
 
 </body>
