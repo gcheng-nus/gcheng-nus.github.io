@@ -19,7 +19,7 @@ author_profile: true
 			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
 			<li>Selected Comments from Students:</li>
 				<ul>
-					<li><i>Prof Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Prof Guang as my class tutor. He makes this module more bearable, especially for someone like me who is not inclined in math modules.</i></li>
+					<li style="font-size: 12px"><i>"Prof Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Prof Guang as my class tutor. He makes this module more bearable, especially for someone like me who is not inclined in math modules.</i></li>
 					<li>I could see the improvement in his teaching after every class. He is one of the most dedicated teachers I have ever seen.</li>
 					<li>He is very enthusiastic and passionate! He goes the extra mile in ensuring students have enough feedback, practice, and consultation time.</li>
 				</ul>
