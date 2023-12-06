@@ -17,7 +17,7 @@ author_profile: true
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><b>Extubation decision making with predictive information for mechanically ventilated patients in ICU</b> <br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
-	Major revision at <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
+	Minor revision at <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
 </ol>
 
 <h2>Published Papers</h2>
