@@ -17,7 +17,7 @@ author_profile: true
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><b>Extubation decisions with predictive information for mechanically ventilated patients in ICU</b> <br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
-	Minor revision at <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
+	Accepted for publication in <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
 	<!-- <li><b>The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</b><br> 
 	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh
 	Submitted to <i>Journal of Clinical Anesthesia</i>.</li>

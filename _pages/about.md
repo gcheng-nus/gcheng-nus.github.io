@@ -27,7 +27,7 @@ redirect_from:
 <h2>Bio</h2>
 <p>
 Hi, I'm Guang Cheng! 
-I'm currently a third-year Ph.D. student at National University of Singapore advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: rgb(73, 78, 82);">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" style="color: rgb(73, 78, 82)">Sidika Tunc Candogan</a>.
+I'm currently a fourth-year Ph.D. student at National University of Singapore advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: rgb(73, 78, 82);">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" style="color: rgb(73, 78, 82)">Sidika Tunc Candogan</a>.
 My primary research interests are in data-driven modeling and empirical analysis with applications in medical decision making and healthcare operations management.
 </p>
 
