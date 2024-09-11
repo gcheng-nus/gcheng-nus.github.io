@@ -9,7 +9,7 @@ author_profile: true
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 </style>
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
-<body style="font-family: Open Sans; font-style: light; font-size: 12pt;">
+<body style="font-family: Open Sans; font-style: light; font-size: 11pt;">
 
 
 
@@ -21,7 +21,7 @@ author_profile: true
 	<!--  -->
 	<li><b>Extubation decisions with predictive information for mechanically ventilated patients in ICU</b> <br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
-	Accepted for publication in <i>Management Science</i>. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
+	<i>Management Science</i>, Forthcoming. [<a href="https://ssrn.com/abstract=3397530" target="_blank">SSRN</a>]</li>
 	<!--  -->
 	<li><b>On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore</b> <br>
 	Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng.
