@@ -13,6 +13,15 @@ author_profile: true
 
 
 
+<h2 style="margin-top: 1em;">Working Papers</h2>
+<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+	<li><b>The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</b><br>
+	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. [<a href="https://ssrn.com/abstract=4950602" target="_blank">SSRN</a>]</li>
+	<!--  -->
+</ol>
+
+
+
 <h2>Published Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><b>Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study</b><br>
@@ -32,14 +41,6 @@ author_profile: true
 	<i>Journal of Cardiac Surgery</i>, 34(10):1004–1011. [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jocs.14189" target="_blank">Link</a>] </li>
 </ol>
 
-
-
-<h2 style="margin-top: 1em;">Working Papers</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li><b>The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</b><br>
-	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh.</li>
-	<!--  -->
-</ol>
 
 
 <!-- 
