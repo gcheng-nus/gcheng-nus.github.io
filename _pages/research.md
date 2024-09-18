@@ -16,7 +16,7 @@ author_profile: true
 <h2 style="margin-top: 1em;">Working Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><b>The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</b><br>
-	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. [<a href="https://ssrn.com/abstract=4950602" target="_blank">SSRN</a>]</li>
+	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. [<a href="https://ssrn.com/abstract=4956298" target="_blank">SSRN</a>]</li>
 	<!--  -->
 </ol>
 
