@@ -27,10 +27,15 @@ author_profile: true
 		</ul>
 </ul>
 
+<h2 style="margin-top: 1em;">Guest Lecturer</h2>
+<ul>
+	<li>PHM5014 Causal Inference in Precision Medicine (Masters), Fall 2024</li>
+</ul>
+
 <h2 style="margin-top: 1em;">Teaching Assistant</h2>
 <ul>
 	<li>IE4214 Revenue Management and Pricing Analytics (Undergraduate), Spring 2022</li>
-	<li>DBA5103 Operations Research and Analytics (Master), Fall 2022</li>
+	<li>DBA5103 Operations Research and Analytics (Masters), Fall 2022</li>
 </ul>
 
 </body>

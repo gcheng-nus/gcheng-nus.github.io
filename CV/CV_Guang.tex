@@ -25,7 +25,7 @@
 % set heading style
 \usepackage{titlesec}
 \titleformat{\section}{
-  \vspace{-8pt}\bf\scshape\large\raggedright
+  \vspace{-8pt}\scshape\large\raggedright
 }{}{0em}{}[\vspace{-6pt}]
 
 % set spacing
@@ -33,13 +33,12 @@
 \renewcommand{\headrulewidth}{0pt}
 % set header and footer
 \pagestyle{fancy}
-\fancyhf{}
-\fancypagestyle{firstpage}{
-  \lhead{\textcolor{gray}{Last Updated on \today}}
-}
-\cfoot{\footnotesize{Page \thepage \hspace{1pt} of \pageref{LastPage}}}
+\cfoot{\footnotesize{Page \thepage \hspace{1pt} of \hspace{1.5pt}\pageref{LastPage}}}
 
+\usepackage{datetime}
 
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -50,14 +49,17 @@
 %----------------------------------------------------------------------------------------
 %	Information
 %----------------------------------------------------------------------------------------
-\thispagestyle{firstpage}
+% \thispagestyle{firstpage}
 
-{\par \centering\MakeUppercase{\Large\bf Guang Cheng} \par}
-\vspace*{-2mm}
+{\par \centering{\huge Guang CHENG} \par}
+% \vspace*{-2mm}
 \centering
-\footnotesize{National University of Singapore, Institute of Operations Research and Analytics} \\
-\footnotesize{\#04-01, Innovation 4.0, 3 Research Link, Singapore 117602} \\
-\footnotesize{\href{mailto:gcheng@u.nus.edu}{gcheng@u.nus.edu}} $\ \diamond \ $ \footnotesize{\href{https://gcheng-nus.github.io}{https://gcheng-nus.github.io}}
+\footnotesize{Institute of Operations Research and Analytics} \\
+\footnotesize{National University of Singapore} \\
+% \footnotesize{\#04-01, Innovation 4.0, 3 Research Link, Singapore 117602} \\
+\footnotesize{\href{mailto:gcheng@u.nus.edu}{gcheng@u.nus.edu}} $\ \vert \ $ \footnotesize{\href{https://gcheng-nus.github.io}{https://gcheng-nus.github.io}} \\
+\vspace*{0.5em}
+\footnotesize{\textit{Last Updated on \monthyeardate\today}}
 
 \vspace*{1em}
 
@@ -67,23 +69,23 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Education}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\begin{itemize}[leftmargin=0pt, itemsep=6pt, parsep=0.2pt, topsep=1pt]
+\begin{itemize}[leftmargin=16pt]
 
 	\item[]
 	\textbf{National University of Singapore, Singapore} \hfill \textit{2020 -- Present} \\
-	\textit{Ph.D. Candidate in Operations Research and Analytics} \\
-	Thesis Advisors: Joel Goh, S\i{}d\i{}ka Tun\c{c} Cando\u{g}an
+	Ph.D. Candidate in Operations Research and Analytics \\
+	Advisors: Joel Goh, S\i{}d\i{}ka Tun\c{c} Cando\u{g}an
 
 	\item[]
 	\textbf{University of Science and Technology of China, China} \hfill \textit{2016 -- 2019} \\
-	\textit{M.S. in Management Science and Engineering}
+	M.S. in Management Science and Engineering
 
 	\item[]
 	\textbf{Jiangnan University, China} \hfill \textit{2012 -- 2016} \\
-	\textit{B.S. in Industrial Engineering}
+	B.S. in Industrial Engineering
 
 \end{itemize}
 
@@ -94,44 +96,43 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Research Interests}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\begin{itemize}[leftmargin=14pt, itemsep=6pt, parsep=0.2pt, topsep=1pt]
+\begin{itemize}[leftmargin=16pt, itemsep=2pt]
 
-	\item[] \textbf{Topics:} Medical decision-making; Healthcare operations; Healthcare design and delivery
-	
-	\item[] \textbf{Methods:} Applied econometrics; Causal inference; Field experiment; Data analytics
+	\item[] \textbf{Topics:} Medical Decision-Making; Healthcare Operations; Healthcare Delivery
+	\item[] \textbf{Methodologies:} Econometric Analysis; Field experiment; Data Analytics
 	
 \end{itemize}
 
 
 
 %----------------------------------------------------------------------------------------
-%	Published Paper
+%	Published Papers
 %----------------------------------------------------------------------------------------
 
 \section*{Published Work}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\begin{enumerate}[leftmargin=28pt, itemsep=6pt, parsep=0.2pt, topsep=1pt]
+\begin{enumerate}[leftmargin=30pt]
 
-	\item Stephanie Ko, Guang Cheng, Tze Yeong Teng, Joel Goh. 
-	Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study.
-	{\it Journal of the American Medical Directors Association}, 2024, 25(9):105154.
-	
 	\item Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
-	Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in ICU.
-	{\it Management Science}, Forthcoming.
-
+	\href{https://doi.org/10.1287/mnsc.2021.01427}{Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in ICU.}
+	\textit{\textbf{Management Science}}.
+	
+	\item Stephanie Ko, Guang Cheng, Tze Yeong Teng, Joel Goh.
+	\href{https://doi.org/10.1016/j.jamda.2024.105154}{Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study.}
+	\textit{\textbf{Journal of the American Medical Directors Association}}, 2024, 25(9):105154.
+	
 	\item Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. 
-	On the Test Accuracy and Effective Control of the COVID-19 Pandemic: A Case Study in Singapore. 
-	{\it INFORMS Journal on Applied Analytics}, 2022, 52(6):524-538.
+	\href{https://doi.org/10.1287/inte.2022.1117}{On the Test Accuracy and Effective Control of the COVID-19 Pandemic: A Case Study in Singapore.} 
+	\textit{\textbf{INFORMS Journal on Applied Analytics}}, 2022, 52(6):524-538.
 
 	\item Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
-	To Extubate or Not to Extubate: Risk Factors for Extubation Failure and Deterioration with Further Mechanical Ventilation. 
-	{\it Journal of Cardiac Surgery}, 2019, 34(10): 1004–1011.
+	\href{https://doi.org/10.1111/jocs.14189}{To Extubate or Not to Extubate: Risk Factors for Extubation Failure and Deterioration with Further Mechanical Ventilation.}
+	\textit{\textbf{Journal of Cardiac Surgery}}, 2019, 34(10): 1004–1011.
 
 \end{enumerate}
 
@@ -142,13 +143,15 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Working Papers}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\begin{enumerate}[leftmargin=28pt, itemsep=6pt, parsep=0.2pt, topsep=1pt]
-
+\begin{enumerate}[leftmargin=30pt, resume]
+	
 	\item Guang Cheng, S\i{}d\i{}ka Tun\c{c} Cando\u{g}an, Joel Goh, Bilal Gokpinar.
-	The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform.
+	\href{https://ssrn.com/abstract=4956298}{The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform.}
+
+	\item Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh. The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times.
 
 \end{enumerate}
 
@@ -158,15 +161,15 @@
 %	Work in Progress
 %----------------------------------------------------------------------------------------
 
-\section*{Work-in-Progress}
-\vspace*{0.4em}
-\hrule height 0.5pt
+% \section*{Work-in-Progress}
+% \vspace*{6pt}
+% \hrule
 
-\begin{enumerate}[leftmargin=28pt, itemsep=6pt, parsep=0.2pt, topsep=1pt]
+% \begin{enumerate}[leftmargin=30pt, itemsep=2pt, parsep=0.2pt, topsep=1pt, resume]
 
-	\item Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh. The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times.
+	
 
-\end{enumerate}
+% \end{enumerate}
 
 
 
@@ -175,48 +178,54 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Conference Presentations}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\begin{itemize}[leftmargin=26pt, itemsep=8pt, parsep=0.2pt, topsep=1pt]
+\begin{itemize}[leftmargin=14pt]
 
-	\item {\it The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform}
-	\begin{itemize}
-		% \item POMS-HK International Conference, Hong Kong, China \hfill Jan 2025
-		\item INFORMS Annual Meeting, Seattle, Washington, USA (scheduled) \hfill Oct 2024
-		\item The 16th International Conference of CSAMSE, Xiamen, China \hfill Jul 2024
+	\item[] {\it The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform}
+	\begin{itemize}[label=$\bullet$]
+		\item POMS Annual Conference, Atlanta, Georgia, USA (scheduled) \hfill May 2025
+		\item POMS-HK International Conference, Hong Kong, China (scheduled) \hfill Jan 2025
+		\item INFORMS Annual Meeting, Seattle, Washington, USA \hfill Oct 2024
+		\item The 16th International Annual Conference of CSAMSE, Xiamen, China \hfill Jul 2024
 	\end{itemize}
 
-	\item {\it The Impact of Introducing Release Policy for Operating Rooms on Surgery Waiting Times}
-	\begin{itemize}[leftmargin=14pt, itemsep=2pt, topsep=2pt]
+	\item[] {\it The Impact of Introducing Release Policy for Operating Rooms on Surgery Waiting Times}
+	\begin{itemize}[label=$\bullet$]
 		\item INFORMS Annual Meeting, Phoenix, Arizona, USA \hfill Oct 2023
 		\item POMS Annual Conference, Orlando, Florida, USA \hfill May 2023
 		\item POMS-HK International Conference, Hong Kong, China \hfill Jan 2023
 		\item INFORMS Annual Meeting, Indianapolis, Indiana, USA \hfill Oct 2022
-		\item POMS Annual Conference, virtual \hfill Apr 2022
-		\item IARS Annual Meeting, poster presentation, virtual \hfill Mar 2022
+		\item POMS Annual Conference, Orlando, Florida, USA (Online) \hfill Apr 2022
+		% \item IARS Annual Meeting, poster presentation, virtual \hfill Mar 2022
 	\end{itemize}
 
-	\item {\it Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in ICU}
-	\begin{itemize}[leftmargin=14pt, itemsep=4pt, topsep=2pt]
-		\item POMS Annual Conference, virtual \hfill Apr 2022
-		\item The 13th International Conference of CSAMSE, virtual \hfill Jul 2021
+	\item[] {\it Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in ICU}
+	\begin{itemize}[label=$\bullet$]
+		\item POMS Annual Conference, Orlando, Florida, USA (Online) \hfill Apr 2022
+		\item The 13th International Annual Conference of CSAMSE, Shanghai, China (Online) \hfill Jul 2021
 		\item POMS-HK International Conference, Hong Kong, China \hfill Jan 2019
 	\end{itemize}
 
 \end{itemize}
 
-
+% \raggedright\textbf{2025} POMS-HK International Conference\\
+% \raggedright\textbf{2024} The 16th International Conference of CSAMSE; INFORMS Annual Meeting\\
+% \raggedright\textbf{2023} POMS-HK International Conference; POMS Annual Conference; INFORMS Annual Meeting\\
+% \raggedright\textbf{2022} POMS Annual Conference; INFORMS Annual Meeting\\
+% \raggedright\textbf{2021} The 13th International Conference of CSAMSE\\
+% \raggedright\textbf{2019} POMS-HK International Conference
 
 %----------------------------------------------------------------------------------------
 %	 Experience
 %----------------------------------------------------------------------------------------
 
 \section*{Professional Experience}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\begin{itemize}[leftmargin=26pt, itemsep=0pt, parsep=0.2pt, topsep=1pt]
+\begin{itemize}[leftmargin=30pt, itemsep=0pt]
     \item Visiting Scholar, Virginia Tech, Blacksburg, Virginia, USA, Aug 2023 -- Dec 2023	
     \item Research Assistant, Singapore Management University, Singapore, Jul 2019 -- Jun 2020
 	\item Research Assistant, Singapore Management University, Singapore, Aug 2018 -- Nov 2018
@@ -230,34 +239,30 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Professional Activities and Services}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\raggedright\textbf{Conference Session Chair}
+\begin{itemize}[leftmargin=16pt]
+	\item[] \textbf{Conference Session Chair}
+	\begin{itemize}[parsep=2pt, label=$\bullet$]
+		\item POMS-HK International Conference \hfill Jan 2025
+		\item POMS Annual Conference \hfill May 2023
+		% \item INFORMS Annual Meeting \hfill Sept 2022
+		\item Analytics for X Conference \hfill Sept 2022
+		\item POMS Annual Conference \hfill Apr 2022
+	\end{itemize}
 
-\begin{itemize}[leftmargin=26pt, itemsep=2pt, parsep=0pt, topsep=-0.5em]
-	\item POMS-HK Conference \hfill Jan 2025
-	\item POMS Annual Conference \hfill May 2023
-	% \item INFORMS Annual Meeting \hfill Sept 2022
-	\item Analytics for X Conference \hfill Sept 2022
-	\item POMS Annual Conference \hfill Apr 2022
-\end{itemize}
+	\item[] \textbf{Organizing Committee}
+	\begin{itemize}[parsep=2pt, label=$\bullet$]
+		\item Analytics for X Conference \hfill Sept 2021
+	\end{itemize}
 
+	\item[] \textbf{Professional Memberships}
+	\begin{itemize}[parsep=2pt, label=$\bullet$]
+		\item Institute for Operations Research and Management Sciences (INFORMS)
+		\item INFORMS Health Applications Society (HAS)
+	\end{itemize}
 
-
-\raggedright\textbf{Organizing Committee}
-
-\begin{itemize}[leftmargin=26pt, itemsep=2pt, parsep=0pt, topsep=-0.5em]
-	\item Analytics for X Conference \hfill Sept 2021
-\end{itemize}
-
-
-
-\raggedright\textbf{Professional Memberships}
-
-\begin{itemize}[leftmargin=26pt, itemsep=2pt, parsep=0pt, topsep=-0.5em]
-	\item Institute for Operations Research and Management Sciences (INFORMS)
-	\item INFORMS Health Applications Society (HAS)
 \end{itemize}
 
 
@@ -267,23 +272,25 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Teaching Experience}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\raggedright\textbf{Instructor}
-\begin{itemize}[leftmargin=26pt, itemsep=2pt, parsep=0pt, topsep=-0.5em]
+\begin{itemize}[leftmargin=16pt]
+	\item[] \textbf{Instructor}
+	\begin{itemize}[label=$\bullet$]
+		\item DAO1704 Decision Analytics using Spreadsheets (Undergraduate Core) \hfill Spring 2023
+	\end{itemize}
 
-	\item DAO1704 Decision Analytics using Spreadsheets (Undergraduate Core) \hfill Spring 2023
+	\item[] \textbf{Guest Lecturer}
+	\begin{itemize}[label=$\bullet$]
+		\item PHM5014 Causal Inference in Precision Medicine (Masters) \hfill Fall 2024
+	\end{itemize}
 
-\end{itemize}
-
-\raggedright\textbf{Teaching Assistant}
-\begin{itemize}[leftmargin=26pt, itemsep=2pt, parsep=0pt, topsep=-0.5em]
-
-	\item IE4214 Revenue Management and Pricing Analytics (Undergraduate Core) \hfill Spring 2022
-
-	\item DBA5103 Operations Research and Analytics (Masters Core) \hfill Fall 2022
-
+	\item[] \textbf{Teaching Assistant}
+	\begin{itemize}[label=$\bullet$]
+		\item IE4214 Revenue Management and Pricing Analytics (Undergraduate Core) \hfill Spring 2022
+		\item DBA5103 Operations Research and Analytics (Masters Core) \hfill Fall 2022
+	\end{itemize}
 \end{itemize}
 
 
@@ -293,18 +300,13 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Honors and Awards}
-\vspace*{0.4em}
-\hrule height 0.5pt
-\begin{itemize}[leftmargin=26pt, itemsep=1pt, parsep=0.5pt, topsep=1pt]
+\vspace*{4pt}
+\hrule
 
-	\item NUS Research Scholarship, National University of Singapore, Singapore \hfill 2020-2024
-	
+\begin{itemize}[leftmargin=30pt, parsep=0.5pt]
+	\item NUS Research Scholarship, National University of Singapore, Singapore \hfill 2020--2024
 	\item JData Data Mining Competition Top 10, JD.com, inc., China \hfill 2017
-
-	\item National Scholarship, Ministry of Education of People’s Republic of China, China \hfill 2015
-
-	% \item Municipal Merit Student, Education Bureau of Wuxi, China, 2015
-
+	\item National Scholarship, Ministry of Education of People's Republic of China, China \hfill 2015
 \end{itemize}
 
 
@@ -314,10 +316,13 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Skills}
-\vspace*{0.4em}
-\hrule height 0.5pt
+\vspace*{4pt}
+\hrule
 
-\textit{Programming \& Packages}: Python, R, MATLAB, SQL, Gurobi
+\begin{itemize}[leftmargin=16pt]
+	\item[] \textbf{Programming \& Packages}: Python, R, MATLAB, SQL, Gurobi
+	\item[] \textbf{Languages}: English (Fluent), Mandarin (Native)
+\end{itemize}
 
 
 }
