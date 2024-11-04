@@ -8,7 +8,7 @@ author_profile: false
 
 <iframe
     src="https://docs.google.com/gview?url=https://gcheng-nus.github.io/CV/CV_Guang.pdf&embedded=true"
-    style="width:100%; height:100%;"
+    style="width:800px; height:600px;"
     frameborder="0"
 ></iframe>
 
