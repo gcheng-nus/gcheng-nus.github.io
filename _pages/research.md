@@ -20,7 +20,7 @@ author_profile: true
 	<li><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
 	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh.</li>
 	<!--  -->
-	<li><a style="color: rgb(73, 78, 82); font-weight: 600">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</a><br>
+	<li><p style="color: rgb(73, 78, 82); font-weight: 600, margin-bottom: 0em">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
 	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh.</li>
 </ol>
 
