@@ -18,7 +18,7 @@ author_profile: true
 <h2 style="margin-top: 1em;">Working Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
-	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh.</li>
+	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i>Management Science.</i></li>
 	<!--  -->
 	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
 	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh.</li>
@@ -28,7 +28,7 @@ author_profile: true
 
 <h2>Published Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">Extubation decisions with predictive information for mechanically ventilated patients in ICU</a><br>
+	<li><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
 	<i>Management Science.</i> [<a href="https://ssrn.com/abstract=3397530" target="_blank">Working paper version</a>]</li>
 	<!--  -->
