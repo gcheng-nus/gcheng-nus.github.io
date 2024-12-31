@@ -30,19 +30,19 @@ author_profile: true
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
-	<i>Management Science.</i> [<a href="https://ssrn.com/abstract=3397530" target="_blank">Working paper version</a>]</li>
+	<i style="font-weight: 600">Management Science.</i> [<a href="https://ssrn.com/abstract=3397530" target="_blank">Working paper version</a>]</li>
 	<!--  -->
 	<li><a href="https://doi.org/10.1016/j.jamda.2024.105154" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study</a><br>
 	Stephanie Ko, Guang Cheng, Tze Yeong Teng, Joel Goh. 
-	<i>Journal of the American Medical Directors Association</i>, 2024, 25(9):105154.</li>
+	<i style="font-weight: 600">Journal of the American Medical Directors Association</i>, 2024, 25(9):105154.</li>
 	<!--  -->
 	<li><a href="https://pubsonline.informs.org/doi/abs/10.1287/inte.2022.1117" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore</a><br>
 	Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. 
-	<i>INFORMS Journal on Applied Analytics</i>, 2022, 52(6):524-538. [<a href="https://ssrn.com/abstract=3955828" target="_blank">Working paper version</a>]</li>
+	<i style="font-weight: 600">INFORMS Journal on Applied Analytics</i>, 2022, 52(6):524-538. [<a href="https://ssrn.com/abstract=3955828" target="_blank">Working paper version</a>]</li>
 	<!--  -->
 	<li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jocs.14189" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">To extubate or not to extubate: Risk factors for extubation failure and deterioration with further mechanical ventilation</a><br>
 	Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
-	<i>Journal of Cardiac Surgery</i>, 2019, 34(10):1004–1011.</li>
+	<i style="font-weight: 600">Journal of Cardiac Surgery</i>, 2019, 34(10):1004–1011.</li>
 </ol>
 
 
