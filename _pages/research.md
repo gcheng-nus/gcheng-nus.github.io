@@ -18,7 +18,7 @@ author_profile: true
 <h2 style="margin-top: 1em;">Working Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
-	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i>Management Science.</i></li>
+	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
 	<!--  -->
 	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
 	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh.</li>
