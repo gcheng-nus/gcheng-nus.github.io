@@ -29,6 +29,7 @@ author_profile: false
 
 <h2 style="margin-top: 1em;">Guest Lecturer</h2>
 <ul>
+	<li>DBA4811 Analytics for Consulting (BBA), Spring 2025</li>
 	<li>PHM5014 Causal Inference in Precision Medicine (MScPHM), Fall 2024</li>
 </ul>
 
