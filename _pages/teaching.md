@@ -13,7 +13,7 @@ author_profile: true
 
 <h2 style="margin-top: 1em;">Instructor</h2>
 <ul>
-	<li>DAO1704 Decision Analytics using Spreadsheets (Undergraduate), Spring 2023</li>
+	<li>DAO1704 Decision Analytics using Spreadsheets (BBA), Spring 2023</li>
 		<ul>
 			<li>Class Enrollment: 35</li>
 			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
@@ -29,14 +29,14 @@ author_profile: true
 
 <h2 style="margin-top: 1em;">Guest Lecturer</h2>
 <ul>
-	<li>PHM5014 Causal Inference in Precision Medicine (Masters), Fall 2024</li>
+	<li>PHM5014 Causal Inference in Precision Medicine (MScPHM), Fall 2024</li>
 </ul>
 
 <h2 style="margin-top: 1em;">Teaching Assistant</h2>
 <ul>
-	<li>DBA4811 Analytics for Consulting (Undergraduate), Spring 2025</li>
-	<li>DBA5103 Operations Research and Analytics (Masters), Fall 2022</li>
-	<li>IE4214 Revenue Management and Pricing Analytics (Undergraduate), Spring 2022</li>
+	<li>DBA4811 Analytics for Consulting (BBA), Spring 2025</li>
+	<li>DBA5103 Operations Research and Analytics (MSBA), Fall 2022</li>
+	<li>IE4214 Revenue Management and Pricing Analytics (BEng), Spring 2022</li>
 </ul>
 
 </body>
