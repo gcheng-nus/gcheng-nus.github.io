@@ -52,13 +52,13 @@ author_profile: false
 
 <h2 style="margin-top: 1em;">Working in Progress</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li><p style="font-size: 14pt">Understanding Hospital-at-Home Adoption: A Game-Theoretic Analysis</p><br> 
+	<li><p style="font-size: 14pt">Understanding Hospital-at-Home Adoption: A Game-Theoretic Analysis</p>
 	with Eryn J. He, Joel Goh and Sergei Savin</li>
 	<!--  -->
 	<li><p style="font-size: 14pt">Reducing No-Shows and Encouraging Proactive Cancellations in Outpatient Clinics: A Behavioral Nudge Intervention Study</p><br> 
 	with Hong Ming Tan and Joel Goh</li>
 	<!--  -->
-	<li><p style="font-size: 14pt">Keep the Progress Going: Using Behavioral Nudges to Encourage Continued Mental Health Support</p><br> 
+	<li><p style="font-size: 14pt">Keep the Progress Going: Using Behavioral Nudges to Encourage Continued Mental Health Support</p>
 	with Yueyang Zhong and Sidika Tunc Candogan</li>
 </ol> 
 
