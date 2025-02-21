@@ -5,6 +5,19 @@ permalink: /research/
 author_profile: false
 ---
 
+<head>
+  <style type="text/css">
+    ol li { counter-increment: mycounter; }
+    ol.start { counter-reset: mycounter; }
+    ol.continue { /*counter-reset: mycounter 2; */}
+    ol li { 
+        counter-increment: mycounter;
+        list-style-type: none;
+    }
+    ol li:before { content: counter(mycounter) ". "; }
+  </style>
+</head>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
@@ -16,7 +29,7 @@ author_profile: false
 
 
 <h2>Published Papers</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+<ol style="class: start; margin-top: 0em; margin-bottom: 1.2em;">
 	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
 	<i style="font-weight: 600">Management Science.</i> [<a href="https://ssrn.com/abstract=3397530" target="_blank">Working paper version</a>]</li>
@@ -37,7 +50,7 @@ author_profile: false
 
 
 <h2 style="margin-top: 1em;">Working Papers</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+<ol style="class: continue; margin-top: 0em; margin-bottom: 1.2em;">
 	<li style="margin-bottom: 20px"><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
 	Guang Cheng, Sidika Tunc Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
 	<ul style="margin-top: -1em; font-size:10.5">
@@ -51,7 +64,7 @@ author_profile: false
 
 
 <h2 style="margin-top: 1em;">Working in Progress</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+<ol style="class: continue; margin-top: 0em; margin-bottom: 1.2em;">
 	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">Understanding Hospital-at-Home Adoption: A Game-Theoretic Analysis</p>
 	with Eryn J. He, Joel Goh and Sergei Savin</li>
 	<!--  -->
