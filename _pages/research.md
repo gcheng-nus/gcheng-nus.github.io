@@ -40,7 +40,7 @@ author_profile: false
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li style="margin-bottom: 20px"><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
 	Guang Cheng, Sidika Tunc Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
-	<ul style="font-size:10.5">
+	<ul style="margin-top: 0em; font-size:10.5">
 		<li>Finalist, 2025 POM PITM Best Student Paper Competition</li>
 	</ul>
 	<!--  -->
