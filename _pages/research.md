@@ -15,20 +15,6 @@ author_profile: false
 
 
 
-<h2 style="margin-top: 1em;">Working Papers</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li style="margin-bottom: 20px"><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
-	Guang Cheng, Sidika Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
-	<!-- <ul style="font-size:10.5">
-		<li>Finalist, POM PITM Best Student Paper Competition, 2025</li>
-	</ul> -->
-	<!--  -->
-	<li style="margin-bottom: 20px"><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
-	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh.</li>
-</ol>
-
-
-
 <h2>Published Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
@@ -50,13 +36,32 @@ author_profile: false
 
 
 
-<!-- 
+<h2 style="margin-top: 1em;">Working Papers</h2>
+<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+	<li style="margin-bottom: 20px"><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
+	Guang Cheng, Sidika Tunc Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
+	<ul style="font-size:10.5">
+		<li>Finalist, 2025 POM PITM Best Student Paper Competition</li>
+	</ul>
+	<!--  -->
+	<li style="margin-bottom: 20px"><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
+	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh.</li>
+</ol>
+
+
+
 <h2 style="margin-top: 1em;">Working in Progress</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li><b>The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</b><br> 
-	Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh.</li>
+	<li><p style="font-size: 14pt">Understanding Hospital-at-Home Adoption: A Game-Theoretic Analysis</p><br> 
+	with Eryn J. He, Joel Goh and Sergei Savin</li>
+	<!--  -->
+	<li><p style="font-size: 14pt">Reducing No-Shows and Encouraging Proactive Cancellations in Outpatient Clinics: A Behavioral Nudge Intervention Study</p><br> 
+	with Hong Ming Tan and Joel Goh</li>
+	<!--  -->
+	<li><p style="font-size: 14pt">Keep the Progress Going: Using Behavioral Nudges to Encourage Continued Mental Health Support</p><br> 
+	with Yueyang Zhong and Sidika Tunc Candogan</li>
 </ol> 
--->
+
 
 
 </body>

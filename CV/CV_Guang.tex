@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper]{article}
 
-\usepackage[top=0.9in, bottom=0.8in, left=0.7in, right=0.8in]{geometry}
+\usepackage[top=0.7in, bottom=0.7in, left=0.7in, right=0.7in]{geometry}
 % \usepackage{sectsty}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
@@ -15,7 +15,7 @@
     linkcolor=black,
     filecolor=black,      
     urlcolor=black,
-    }
+}
 \usepackage[dvipsnames]{xcolor}
 
 % set font style
@@ -25,8 +25,8 @@
 % set heading style
 \usepackage{titlesec}
 \titleformat{\section}{
-  \vspace{-8pt}\scshape\large\raggedright
-}{}{0em}{}[\vspace{-6pt}]
+  \vspace{-12pt}\scshape\Large\raggedright
+}{}{0em}{}[\vspace{0pt}\hrule]
 
 % set spacing
 \renewcommand{\baselinestretch}{1.15}
@@ -39,6 +39,13 @@
 
 \newdateformat{monthyeardate}{%
   \monthname[\THEMONTH] \THEYEAR}
+
+\setlist[enumerate,1]{leftmargin=30pt, itemsep=0pt} % Enumerate Level 1
+\setlist[enumerate,2]{itemsep=-2pt}   % Enumerate Level 2
+
+\setlist[itemize,1]{leftmargin=16pt, itemsep=0pt}  % Level 1 (outermost)
+\setlist[itemize,2]{itemsep=-4pt, label=$\bullet$}   % Level 2 (nested)
+\setlist[itemize,3]{itemsep=-4pt, topsep=-4pt, label=$\circ$}   % Level 3 (deeply nested)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -54,12 +61,12 @@
 {\par \centering{\huge Guang CHENG} \par}
 % \vspace*{-2mm}
 \centering
-\footnotesize{Institute of Operations Research and Analytics} \\
-\footnotesize{National University of Singapore} \\
+{\footnotesize Institute of Operations Research and Analytics} \\
+{\footnotesize National University of Singapore} \\
 % \footnotesize{\#04-01, Innovation 4.0, 3 Research Link, Singapore 117602} \\
-\footnotesize{\href{mailto:gcheng@u.nus.edu}{gcheng@u.nus.edu}} $\ \vert \ $ \footnotesize{\href{https://gcheng-nus.github.io}{https://gcheng-nus.github.io}} \\
+{\footnotesize \href{mailto:gcheng@u.nus.edu}{gcheng@u.nus.edu}} $\ \vert \ $ \footnotesize{\href{https://gcheng-nus.github.io}{https://gcheng-nus.github.io}} \\
 \vspace*{0.5em}
-\footnotesize{\textit{Last Updated in \monthyeardate\today}}
+{\footnotesize \textit{Last Updated in \monthyeardate\today}}
 
 \vspace*{1em}
 
@@ -69,10 +76,8 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Education}
-\vspace*{4pt}
-\hrule
 
-\begin{itemize}[leftmargin=16pt]
+\begin{itemize}
 
 	\item[]
 	\textbf{National University of Singapore, Singapore} \hfill \textit{2020 -- Present} \\
@@ -96,14 +101,10 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Research Interests}
-\vspace*{4pt}
-\hrule
 
-\begin{itemize}[leftmargin=16pt, itemsep=2pt]
-
-	\item[] \textbf{Topics:} Medical Decision-Making; Healthcare Operations; Healthcare Delivery
-	\item[] \textbf{Methodologies:} Econometric Analysis; Field experiment; Data Analytics
-	
+\begin{itemize}
+    \item[] \textbf{Topics:} Data-Driven Medical Decision-Making and Healthcare Operations; Behavioral Interventions in Healthcare  
+    \item[] \textbf{Methodologies:} Econometric Analysis; Field Experiments; Data Analytics; Causal Inference
 \end{itemize}
 
 
@@ -113,20 +114,18 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Published Work}
-\vspace*{4pt}
-\hrule
 
-\begin{enumerate}[leftmargin=30pt]
+\begin{enumerate}
 
 	\item Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
 	\href{https://doi.org/10.1287/mnsc.2021.01427}{Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU.}
-	\textit{\textbf{Management Science}}.
+	\textit{\textbf{Management Science}}. Article in Advance.
 	
-	\item Stephanie Ko, Guang Cheng, Tze Yeong Teng, Joel Goh.
+	\item Stephanie Q. Ko, Guang Cheng, Tze Yeong Teng, Joel Goh.
 	\href{https://doi.org/10.1016/j.jamda.2024.105154}{Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study.}
 	\textit{\textbf{Journal of the American Medical Directors Association}}, 2024, 25(9):105154.
 	
-	\item Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. 
+	\item Guang Cheng, Sarah Y. Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng. 
 	\href{https://doi.org/10.1287/inte.2022.1117}{On the Test Accuracy and Effective Control of the COVID-19 Pandemic: A Case Study in Singapore.} 
 	\textit{\textbf{INFORMS Journal on Applied Analytics}}, 2022, 52(6):524-538.
 
@@ -143,17 +142,15 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Working Papers}
-\vspace*{4pt}
-\hrule
 
 \begin{enumerate}[leftmargin=30pt, resume]
 	
 	\item Guang Cheng, S\i{}d\i{}ka Tun\c{c} Cando\u{g}an, Joel Goh, Bilal Gokpinar.
 	\href{https://ssrn.com/abstract=4956298}{The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform.} Major Revision at \textit{\textbf{Management Science}}.
 
-	% \begin{itemize}[leftmargin=14pt]
-	% 	\item {\footnotesize Finalist, POMS PITM Best Student Paper Competition 2025}
-	% \end{itemize}
+	\begin{itemize}
+		\item {\footnotesize Finalist, 2025 POMS PITM Best Student Paper Competition}
+	\end{itemize}
 
 	\item Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh. The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times.
 
@@ -165,17 +162,59 @@
 %	Work in Progress
 %----------------------------------------------------------------------------------------
 
-% \section*{Work-in-Progress}
-% \vspace*{6pt}
-% \hrule
+\section*{Work-in-Progress}
 
-% \begin{enumerate}[leftmargin=30pt, resume]
-	% \item HaH
-	% \item	Nudging Patients to Proactively Cancel Appointments: A Field Experiment in an Outpatient Clinic
-	% \item Nudging Customers to Continue with Online Mental Health Therapy: A Field Experiment on a Mental Health Platform
+\begin{enumerate}[leftmargin=30pt, resume]
 
-% \end{enumerate}
+	\item Understanding Hospital-at-Home Adoption: A Game-Theoretic Analysis (with Eryn J. He, Joel Goh and Sergei Savin)
+	
+	\item Reducing No-Shows and Encouraging Proactive Cancellations in Outpatient Clinics: A Behavioral Nudge Intervention Study (with Hong Ming Tan and Joel Goh)
+	
+	\item Keep the Progress Going: Using Behavioral Nudges to Encourage Continued Mental Health Support (with Yueyang Zhong and S\i{}d\i{}ka Tun\c{c} Cando\u{g}an) 
+	
+\end{enumerate}
 
+
+
+%----------------------------------------------------------------------------------------
+%	 Teaching
+%----------------------------------------------------------------------------------------
+
+\section*{Teaching Experience}
+% \begingroup
+% \setstretch{1.0}
+\begin{itemize}
+
+	\item[] \textbf{Instructor}
+	\begin{itemize}
+		\item DAO1704 Decision Analytics using Spreadsheets (BBA) \hfill Spring 2023
+		\begin{itemize}
+			\item {\footnotesize Class size: 35 students}
+			\item {\footnotesize Teaching evaluation: 4.2/5 (department average: 4.0)}
+			\item {\footnotesize Delivered core analytics course for business undergraduates, integrating real-world healthcare and business applications.}
+		\end{itemize}
+	\end{itemize}
+
+	\item[] \textbf{Guest Lecturer}
+	\begin{itemize}
+		\item DBA4811 Analytics for Consulting (BBA) \hfill Spring 2025
+		\begin{itemize}
+			\item {\footnotesize Conducted two lectures on machine learning techniques and their applications in operations and analytics.}
+		\end{itemize}
+		\item PHM5014 Causal Inference in Precision Medicine (MScPHM) \hfill Fall 2024
+		\begin{itemize}
+			\item {\footnotesize Presented the Safe Space experiment to illustrate real-world applications of causal inference, demonstrating how empirical methods inform policy and operational decisions in real business.}
+		\end{itemize}
+	\end{itemize}
+
+	\item[] \textbf{Teaching Assistant}
+	\begin{itemize}
+		\item DBA4811 Analytics for Consulting (BBA) \hfill Spring 2025
+		\item DBA5103 Operations Research and Analytics (MSBA) \hfill Fall 2022
+		\item IE4214 Revenue Management and Pricing Analytics (BEng) \hfill Spring 2022
+	\end{itemize}
+\end{itemize}
+% \endgroup
 
 
 %----------------------------------------------------------------------------------------
@@ -183,13 +222,11 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Conference Presentations}
-\vspace*{4pt}
-\hrule
 
-\begin{itemize}[leftmargin=14pt]
+\begin{itemize}
 
 	\item[] {\it The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform}
-	\begin{itemize}[label=$\bullet$]
+	\begin{itemize}
 		\item POMS Annual Conference, Atlanta, Georgia, USA (scheduled) \hfill May 2025
 		\item Workshop on Empirical Operations Management, Hong Kong, China \hfill Jan 2025
 		\item The 15th POMS-HK International Conference, Hong Kong, China \hfill Jan 2025
@@ -198,7 +235,7 @@
 	\end{itemize}
 
 	\item[] {\it The Impact of Introducing Release Policy for Operating Rooms on Surgery Waiting Times}
-	\begin{itemize}[label=$\bullet$]
+	\begin{itemize}
 		\item INFORMS Annual Meeting, Phoenix, Arizona, USA \hfill Oct 2023
 		\item POMS Annual Conference, Orlando, Florida, USA \hfill May 2023
 		\item The 13th POMS-HK International Conference, Hong Kong, China \hfill Jan 2023
@@ -208,7 +245,7 @@
 	\end{itemize}
 
 	\item[] {\it Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in ICU}
-	\begin{itemize}[label=$\bullet$]
+	\begin{itemize}
 		\item POMS Annual Conference, Orlando, Florida, USA (Online) \hfill Apr 2022
 		\item The 13th International Annual Conference of CSAMSE, Shanghai, China (Online) \hfill Jul 2021
 		\item The 10th POMS-HK International Conference, Hong Kong, China \hfill Jan 2019
@@ -216,26 +253,19 @@
 
 \end{itemize}
 
-% \raggedright\textbf{2025} POMS-HK International Conference\\
-% \raggedright\textbf{2024} The 16th International Conference of CSAMSE; INFORMS Annual Meeting\\
-% \raggedright\textbf{2023} POMS-HK International Conference; POMS Annual Conference; INFORMS Annual Meeting\\
-% \raggedright\textbf{2022} POMS Annual Conference; INFORMS Annual Meeting\\
-% \raggedright\textbf{2021} The 13th International Conference of CSAMSE\\
-% \raggedright\textbf{2019} POMS-HK International Conference
+
 
 %----------------------------------------------------------------------------------------
 %	 Experience
 %----------------------------------------------------------------------------------------
 
 \section*{Professional Experience}
-\vspace*{4pt}
-\hrule
 
-\begin{itemize}[leftmargin=30pt, itemsep=0pt]
+\begin{itemize}[leftmargin=30pt]
     \item Visiting Scholar, Virginia Tech, Blacksburg, Virginia, USA, Aug 2023 -- Dec 2023	
     \item Research Assistant, Singapore Management University, Singapore, Jul 2019 -- Jun 2020
-	% \item Research Assistant, Singapore Management University, Singapore, Aug 2018 -- Nov 2018
-    % \item Research Assistant, Singapore Management University, Singapore, Sept 2017 -- Mar 2018
+	% \item Visiting Student, Singapore Management University, Singapore, Aug 2018 -- Nov 2018
+    % \item Visiting Student, Singapore Management University, Singapore, Sept 2017 -- Mar 2018
 \end{itemize}
 
 
@@ -244,14 +274,14 @@
 %	 Service
 %----------------------------------------------------------------------------------------
 
-\section*{Professional Activities and Services}
-\vspace*{4pt}
-\hrule
+\section*{Services and Activities}
 
-\begin{itemize}[leftmargin=16pt]
+\begin{itemize}
+
 	\item[] \textbf{Conference Session Chair}
-	\begin{itemize}[parsep=2pt, label=$\bullet$]
+	\begin{itemize}
 		\item INFORMS Annual Meeting \hfill Oct 2025
+		\item INFORMS International Meeting \hfill Jul 2025
 		\item POMS-HK International Conference \hfill Jan 2025
 		\item POMS Annual Conference \hfill May 2023
 		% \item INFORMS Annual Meeting \hfill Sept 2022
@@ -260,46 +290,16 @@
 	\end{itemize}
 
 	\item[] \textbf{Organizing Committee}
-	\begin{itemize}[parsep=2pt, label=$\bullet$]
+	\begin{itemize}
 		\item Analytics for X Conference \hfill Sept 2021
 	\end{itemize}
 
-	\item[] \textbf{Professional Memberships}
-	\begin{itemize}[parsep=2pt, label=$\bullet$]
-		\item Institute for Operations Research and Management Sciences (INFORMS)
-		\item INFORMS Health Applications Society (HAS)
-	\end{itemize}
+	% \item[] \textbf{Professional Memberships}
+	% \begin{itemize}[label=$\bullet$]
+	% 	\item Institute for Operations Research and Management Sciences (INFORMS)
+	% 	\item INFORMS Health Applications Society (HAS)
+	% \end{itemize}
 
-\end{itemize}
-
-
-
-%----------------------------------------------------------------------------------------
-%	 Teaching
-%----------------------------------------------------------------------------------------
-
-\section*{Teaching Experience}
-\vspace*{4pt}
-\hrule
-
-\begin{itemize}[leftmargin=16pt]
-	\item[] \textbf{Instructor}
-	\begin{itemize}[label=$\bullet$]
-		\item DAO1704 Decision Analytics using Spreadsheets (BBA) \hfill Spring 2023
-	\end{itemize}
-
-	\item[] \textbf{Guest Lecturer}
-	\begin{itemize}[label=$\bullet$]
-		\item DBA4811 Analytics for Consulting (BBA) \hfill Spring 2025
-		\item PHM5014 Causal Inference in Precision Medicine (MScPHM) \hfill Fall 2024
-	\end{itemize}
-
-	\item[] \textbf{Teaching Assistant}
-	\begin{itemize}[label=$\bullet$]
-		\item DBA4811 Analytics for Consulting (BBA) \hfill Spring 2025
-		\item DBA5103 Operations Research and Analytics (MSBA) \hfill Fall 2022
-		\item IE4214 Revenue Management and Pricing Analytics (BEng) \hfill Spring 2022
-	\end{itemize}
 \end{itemize}
 
 
@@ -309,10 +309,9 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Honors and Awards}
-\vspace*{4pt}
-\hrule
 
-\begin{itemize}[leftmargin=30pt, parsep=0.5pt]
+\begin{itemize}[leftmargin=30pt]
+	\item Finalist, POMS PITM Best Student Paper Competition \hfill 2025
 	\item NUS Research Scholarship, National University of Singapore, Singapore \hfill 2020--2024
 	\item JData Data Mining Competition Top 10, JD.com, inc., China \hfill 2017
 	\item National Scholarship, Ministry of Education of People's Republic of China, China \hfill 2015
@@ -325,19 +324,14 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Skills}
-\vspace*{4pt}
-\hrule
 
-\begin{itemize}[leftmargin=16pt]
+\begin{itemize}
 	\item[] \textbf{Programming \& Packages}: Python, R, MATLAB, SQL, Gurobi
 	\item[] \textbf{Languages}: English (Fluent), Mandarin (Native)
 \end{itemize}
 
 
 }
-% \vspace*{\fill}
-% \center Last Updated on \today
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

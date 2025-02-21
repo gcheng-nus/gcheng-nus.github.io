@@ -26,9 +26,10 @@ redirect_from:
 
 <h2>Bio</h2>
 <p>
-Hi, I'm Guang Cheng! 
-I'm currently a fourth-year Ph.D. student at National University of Singapore advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: rgb(73, 78, 82);">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" style="color: rgb(73, 78, 82)">Sidika Tunc Candogan</a>.
-My primary research interests are in data-driven modeling and empirical analysis with applications in medical decision making and healthcare operations management.
+I am a Ph.D. candidate in Institute of Operations Research and Analytics at the National University of Singapore, advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: rgb(73, 78, 82);">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" style="color: rgb(73, 78, 82)">Sidika Tunc Candogan</a>.
+My research lies at the intersection of data-driven decision-making and behavioral interventions with applications in healthcare operations and medical decision-making.
+
+I leverage econometrics, causal inference, and field experiments to study how healthcare policies and interventions impact both patient and provider behavior. My work bridges analytics and real-world implementation, offering insights that inform hospital operations and digital healthcare platforms. By combining rigorous data analysis with real-world experimentation, my research contributes to evidence-based decision-making in healthcare and service operations, with broad implications for both academia and industry.
 </p>
 
 </body>
