@@ -15,9 +15,10 @@ author_profile: false
 <ul>
 	<li>DAO1704 Decision Analytics using Spreadsheets (BBA), Spring 2023</li>
 		<ul>
-			<li>Class Enrollment: 35</li>
+			<li>Class Size: 35</li>
 			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
 			<li>Teaching Excellence for Graduate Instructor</li>
+			<li>Delivered core analytics course for business undergraduates, integrating real-world healthcare and business applications.</li>
 			<li>Selected Comments from Students:</li>
 				<ul>
 					<li style="font-size: 14px"><i>"Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Guang as my class tutor. He makes this module more bearable, especially for someone like me who is not inclined in math modules."</i></li>
@@ -30,7 +31,13 @@ author_profile: false
 <h2 style="margin-top: 1em;">Guest Lecturer</h2>
 <ul>
 	<li>DBA4811 Analytics for Consulting (BBA), Spring 2025</li>
+		<ul>
+			<li>Conducted two lectures on machine learning techniques and their applications in operations and analytics.</li>
+		</ul>
 	<li>PHM5014 Causal Inference in Precision Medicine (MScPHM), Fall 2024</li>
+		<ul>
+			<li>Presented the Safe Space experiment to illustrate real-world applications of causal inference, demonstrating how empirical methods inform policy and operational decisions in real business.</li>
+		</ul>
 </ul>
 
 <h2 style="margin-top: 1em;">Teaching Assistant</h2>
