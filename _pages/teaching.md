@@ -15,9 +15,8 @@ author_profile: false
 <ul>
 	<li>DAO1704 Decision Analytics using Spreadsheets (BBA), Spring 2023</li>
 		<ul>
-			<li>Class Size: 35 Students</li>
 			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
-			<li>Teaching Excellence for Graduate Instructor</li>
+			<li>Teaching Excellence Award for Graduate Instructor</li>
 			<li>Delivered core analytics course for business undergraduates, integrating real-world healthcare and business applications.</li>
 			<li>Selected Comments from Students:</li>
 				<ul>

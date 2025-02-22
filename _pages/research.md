@@ -44,6 +44,7 @@ author_profile: false
 	Guang Cheng, Sidika Tunc Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
 	<ul style="margin-top: -1em; font-size:10.5">
 		<li>Finalist, 2025 POMS PITM Best Student Paper Competition</li>
+		<li>Select for presentation at Workshop on Empirical Operations Management 2025</li>
 	</ul>
 	<!--  -->
 	<li style="margin-bottom: 20px"><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
