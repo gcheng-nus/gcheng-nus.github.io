@@ -17,7 +17,6 @@ author_profile: false
 		<ul>
 			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
 			<li>Teaching Excellence Award for Graduate Instructor</li>
-			<li>Delivered core analytics course for business undergraduates, integrating real-world healthcare and business applications.</li>
 			<li>Selected Comments from Students:</li>
 				<ul>
 					<li style="font-size: 14px"><i>"Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Guang as my class tutor. He makes this module more bearable, especially for someone like me who is not inclined in math modules."</i></li>

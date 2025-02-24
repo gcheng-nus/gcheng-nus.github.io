@@ -55,7 +55,7 @@ author_profile: false
 
 <!-- <h2 style="margin-top: 1em;">Working in Progress</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">Understanding Hospital-at-Home Adoption: A Game-Theoretic Analysis</p>
+	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">Incentive Design for Hospital at Home</p>
 	with Eryn J. He, Joel Goh and Sergei Savin</li>
 	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">Reducing No-Shows and Encouraging Proactive Cancellations in Outpatient Clinics: A Behavioral Nudge Intervention Study</p>
 	with Hong Ming Tan and Joel Goh</li>

@@ -27,9 +27,10 @@ redirect_from:
 <h2>Bio</h2>
 <p>
 I am a Ph.D. candidate in Institute of Operations Research and Analytics at the National University of Singapore, advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: rgb(73, 78, 82);">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" style="color: rgb(73, 78, 82)">Sidika Tunc Candogan</a>.
-My research lies at the intersection of data-driven decision-making and behavioral interventions with applications in healthcare operations and medical decision-making.
 
-I leverage econometrics, causal inference, and field experiments to study how healthcare policies and interventions impact both patient and provider behavior. My work bridges analytics and real-world implementation, offering insights that inform hospital operations and digital healthcare platforms. By combining rigorous data analysis with real-world experimentation, my research contributes to evidence-based decision-making in healthcare and service operations, with broad implications for both academia and industry.
+My research focuses on data-driven decision-making and behavioral interventions in healthcare operations and medical decision-making. I apply data analytics, econometrics analysis, and field experiments to study how healthcare policies and interventions shape both patient and provider behavior.
+
+By bridging analytics with real-world implementation, my work provides insights that inform hospital operations and digital healthcare platforms. Through rigorous data analysis and experimentation, I aim to contribute to evidence-based decision-making in healthcare and service operations, offering practical implications for both academia and industry.
 </p>
 
 </body>
