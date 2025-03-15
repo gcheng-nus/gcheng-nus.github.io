@@ -24,7 +24,7 @@ author_profile: false
 	<i style="font-weight: 600">Management Science.</i> [<a href="https://ssrn.com/abstract=3397530" target="_blank">Working paper version</a>]</li>
 	<!--  -->
 	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1016/j.jamda.2024.105154" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study</a><br>
-	Stephanie Ko, Guang Cheng, Tze Yeong Teng, Joel Goh. 
+	Stephanie Q. Ko, Guang Cheng, Tze Yeong Teng, Joel Goh. 
 	<i style="font-weight: 600">Journal of the American Medical Directors Association</i>, 2024, 25(9):105154.</li>
 	<!--  -->
 	<li style="margin-bottom: 20px"><a href="https://pubsonline.informs.org/doi/abs/10.1287/inte.2022.1117" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 14pt">On the test accuracy and effective control of the COVID-19 pandemic: A case study in Singapore</a><br>
