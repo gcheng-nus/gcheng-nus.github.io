@@ -9,10 +9,10 @@ redirect_from:
 ---  
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 </style>
-<!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
-<body style="font-family: Open Sans; font-style: light; font-weight: 300; font-size: 12pt;">
+<!-- <body style="font-family: sans-serif; font-size: 12pt;"> -->
+<body style="font-family: Lato; font-size: 12pt;">
 <!-- <body> -->
 
 <!-- <h2 style="margin-top: 1em;">Info</h2>  -->
