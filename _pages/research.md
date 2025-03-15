@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: talk
 title: "Research"
 permalink: /research/
 author_profile: false
