@@ -1,3 +1,14 @@
 <!-- start custom footer snippets -->
+<footer>
+    <p>© <span id="year"></span> Guang Cheng | Last updated in <span id="last-updated"></span></p>
+</footer>
+<script>
+    // Set current year
+    document.getElementById("year").textContent = new Date().getFullYear();
 
+    // Get last modified date
+    const lastUpdated = new Date(document.lastModified);
+    const options = { year: 'numeric', month: 'long' };  // Format as "Month Year"
+    document.getElementById("last-updated").textContent = lastUpdated.toLocaleDateString('en-US', options);
+</script>
 <!-- end custom footer snippets -->
