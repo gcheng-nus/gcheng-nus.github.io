@@ -32,7 +32,7 @@ author_profile: false
 <ul>
 	<li>DBA4811 Analytics for Consulting (BBA), Spring 2025</li>
 		<ul>
-			<li>Conducted two lectures on machine learning techniques and their applications in operations and analytics.</li>
+			<li>Conducted two lectures on machine learning techniques and their applications.</li>
 		</ul>
 	<li>PHM5014 Causal Inference in Precision Medicine (MScPHM), Fall 2024</li>
 		<ul>
