@@ -1,6 +1,6 @@
 <!-- start custom footer snippets -->
 <footer>
-    <p>© <span id="year"></span> Guang Cheng | Last updated in {%    last_modified = site.time | date: "%B %Y" %} {{ last_modified }}</p>
+    <p>© {{ site.time | date: '%Y' }} Guang Cheng | Last updated: {{ 'now' | date: '%B %d, %Y' }}</p>
 </footer>
 <script>
     // Set current year
