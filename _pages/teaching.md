@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: talk
 title: "Teaching"
 permalink: /teaching/
 author_profile: false

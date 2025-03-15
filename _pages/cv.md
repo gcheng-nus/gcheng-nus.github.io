@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: talk
 title: ""
 permalink: /cv/
 author_profile: false
