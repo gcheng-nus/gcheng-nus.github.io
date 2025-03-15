@@ -11,7 +11,7 @@ author_profile: false
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
 <body style="font-family: Open Sans; font-weight: 300; font-style: light; font-size: 12pt;">
 
-<img src="/images/teaching.jpeg" style="width:500px; height:375px;">
+<img src="/images/teaching.jpeg" style="width:600px; height:450px;">
 
 <h2 style="margin-top: 1em;">Instructor</h2>
 <ul>
