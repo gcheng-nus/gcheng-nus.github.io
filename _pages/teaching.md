@@ -11,11 +11,11 @@ author_profile: false
 <!-- <body style="font-family: sans-serif; font-size: 9pt;"> -->
 <body style="font-family: Open Sans; font-weight: 300; font-style: light; font-size: 12pt;">
 
-<img src="/images/teaching.jpeg" style="width:1024px; height:576px;">
+<img src="/images/teaching.jpeg" style="width:640px; height:360px;">
 
 <h2 style="margin-top: 1em;">Instructor</h2>
 <ul>
-	<li>DAO1704 Decision Analytics using Spreadsheets (BBA), Spring 2023</li>
+	<li>DAO1704 Decision Analytics using Spreadsheets (BBA Core), Spring 2023</li>
 		<ul>
 			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
 			<li>Teaching Excellence Award for Graduate Instructor</li>
