@@ -19,7 +19,7 @@ author_profile: false
 
 <h2>Published Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
-	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 600; font-size: 16pt">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
+	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 400; font-size: 16pt">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
 	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
 	<i style="font-weight: 600">Management Science.</i> [<a href="https://ssrn.com/abstract=3397530" target="_blank">Working paper version</a>]</li>
 	<!--  -->
