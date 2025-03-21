@@ -3,6 +3,7 @@
 \usepackage[top=0.7in, bottom=0.7in, left=0.7in, right=0.7in]{geometry}
 % \usepackage{sectsty}
 \usepackage{enumitem}
+\usepackage{amsmath}
 \usepackage{fancyhdr}
 \setlength{\headheight}{15pt}
 \usepackage{lastpage}
@@ -40,12 +41,20 @@
 \newdateformat{monthyeardate}{%
   \monthname[\THEMONTH] \THEYEAR}
 
-\setlist[enumerate,1]{leftmargin=30pt, itemsep=0pt} % Enumerate Level 1
+\setlist[enumerate,1]{leftmargin=30pt, itemsep=4pt} % Enumerate Level 1
 \setlist[enumerate,2]{itemsep=-2pt}   % Enumerate Level 2
 
 \setlist[itemize,1]{leftmargin=16pt, itemsep=0pt}  % Level 1 (outermost)
 \setlist[itemize,2]{itemsep=-4pt, label=$\bullet$}   % Level 2 (nested)
 \setlist[itemize,3]{itemsep=-4pt, topsep=-4pt, label=$\circ$}   % Level 3 (deeply nested)
+
+\renewcommand*\footnoterule{}
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -103,8 +112,8 @@
 \section*{Research Interests}
 
 \begin{itemize}
-    \item[] \textbf{Topics:} Data-Driven Medical Decision-Making and Healthcare Operations; Behavioral Interventions in Healthcare  
-    \item[] \textbf{Methodologies:} Econometric Analysis; Field Experiments; Data Analytics; Causal Inference
+    \item[] \textbf{Topics:} Data-Driven Operations in Healthcare; Behavioral Interventions; Mental Health Platforms
+    \item[] \textbf{Methodologies:} Econometric Analysis; Field Experiments; Data Analytics
 \end{itemize}
 
 
@@ -115,13 +124,16 @@
 
 \section*{Published Work}
 
+\raggedright{\footnotesize{$^P$ Practitioner co-author}}
+\vspace{-12pt}
+
 \begin{enumerate}
 
-	\item Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi.
+	\item Guang Cheng, Jingui Xie, Zhichao Zheng, $^P$Haidong Luo, $^P$Oon-Cheong Ooi.
 	\href{https://doi.org/10.1287/mnsc.2021.01427}{Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU.}
 	\textit{\textbf{Management Science}}. 2024. Article in Advance.
 	
-	\item Stephanie Q. Ko, Guang Cheng, Tze Yeong Teng, Joel Goh.
+	\item $^P$Stephanie Q. Ko, Guang Cheng, $^P$Tze Yeong Teng, Joel Goh.
 	\href{https://doi.org/10.1016/j.jamda.2024.105154}{Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study.}
 	\textit{\textbf{Journal of the American Medical Directors Association}}, 2024, 25(9):105154.
 	
@@ -129,7 +141,7 @@
 	\href{https://doi.org/10.1287/inte.2022.1117}{On the Test Accuracy and Effective Control of the COVID-19 Pandemic: A Case Study in Singapore.} 
 	\textit{\textbf{INFORMS Journal on Applied Analytics}}, 2022, 52(6):524-538.
 
-	\item Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 
+	\item Jingui Xie, Guang Cheng, Zhichao Zheng, $^P$Haidong Luo, $^P$Oon-Cheong Ooi. 
 	\href{https://doi.org/10.1111/jocs.14189}{To Extubate or Not to Extubate: Risk Factors for Extubation Failure and Deterioration with Further Mechanical Ventilation.}
 	\textit{\textbf{Journal of Cardiac Surgery}}, 2019, 34(10): 1004–1011.
 
@@ -153,7 +165,7 @@
 		\item {\footnotesize Select for presentation at Workshop on Empirical Operations Management 2025}
 	\end{itemize}
 
-	\item Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh. The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times.
+	\item Guang Cheng, $^P$Joshua M. Hagood, $^P$Ryan L. Melvin, $^P$Adam F. Kohutnicki, $^P$Mitchell H. Tsai, Joel Goh. The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times.
 
 \end{enumerate}
 
@@ -182,13 +194,12 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Teaching Experience}
-% \begingroup
-% \setstretch{1.0}
+
 \begin{itemize}
 
 	\item[] \textbf{Instructor}
 	\begin{itemize}
-		\item DAO1704 Decision Analytics using Spreadsheets (BBA) \hfill Spring 2023
+		\item DAO1704 Decision Analytics using Spreadsheets (BBA core) \hfill Spring 2023
 		\begin{itemize}
 			% \item {\footnotesize Class size: 35 students}
 			% \item {\footnotesize Delivered core analytics course for business undergraduates, integrating real-world healthcare and business applications.}
@@ -216,7 +227,7 @@
 		\item IE4214 Revenue Management and Pricing Analytics (BEng) \hfill Spring 2022
 	\end{itemize}
 \end{itemize}
-% \endgroup
+
 
 
 %----------------------------------------------------------------------------------------
@@ -287,7 +298,7 @@
 
 	\item[] \textbf{Conference Reviewer}
 	\begin{itemize}
-		\item MSOM 2025
+		\item M\&SOM 2025
 	\end{itemize}
 
 	\item[] \textbf{Conference Session Chair}
