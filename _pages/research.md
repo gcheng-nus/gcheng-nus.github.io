@@ -1,5 +1,5 @@
 ---
-layout: talk
+layout: single
 title: "Research"
 permalink: /research/
 author_profile: false
@@ -52,7 +52,7 @@ author_profile: false
 
 
 
-<!-- <h2 style="margin-top: 1em;">Working in Progress</h2>
+<h2 style="margin-top: 1em;">Working in Progress</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">Incentive Design for Hospital at Home</p>
 	with Eryn J. He, Joel Goh and Sergei Savin</li>
@@ -60,7 +60,7 @@ author_profile: false
 	with Hong Ming Tan and Joel Goh</li>
 	<li><p style="color: rgb(73, 78, 82); font-weight: 600; margin-bottom: 0em; font-size: 14pt">Keep the Progress Going: Using Behavioral Nudges to Encourage Continued Mental Health Support</p>
 	with Yueyang Zhong and Sidika Tunc Candogan</li>
-</ol>  -->
+</ol> 
 
 
 
