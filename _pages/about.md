@@ -32,7 +32,7 @@ My research focuses on data-driven decision-making and behavioral interventions 
 
 By bridging analytics with real-world implementation, my work provides insights that inform hospital operations and digital healthcare platforms. Through rigorous data analysis and experimentation, I aim to contribute to evidence-based decision-making in healthcare and service operations, offering practical implications for both academia and industry.
 
-<b>I will be on the 2025-2026 academic job market!</b>
+<p style="font-weight: 600">I will be on the 2025-2026 academic job market!</p>
 </p>
 
 </body>
