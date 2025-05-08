@@ -31,6 +31,8 @@ I am a Ph.D. candidate in Institute of Operations Research and Analytics at the 
 My research focuses on data-driven decision-making and behavioral interventions in healthcare operations and medical decision-making. I apply data analytics, econometrics analysis, and field experiments to study how healthcare policies and interventions shape both patient and provider behavior.
 
 By bridging analytics with real-world implementation, my work provides insights that inform hospital operations and digital healthcare platforms. Through rigorous data analysis and experimentation, I aim to contribute to evidence-based decision-making in healthcare and service operations, offering practical implications for both academia and industry.
+
+<b>I will be on the 2025-2026 academic job market!</b>
 </p>
 
 </body>
