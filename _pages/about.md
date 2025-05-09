@@ -24,6 +24,8 @@ redirect_from:
   Email: gcheng [AT] u [DOT] nus [DOT] edu  <br>
 </p>
 
+<p style="font-weight: 600">I will be on the 2025-2026 academic job market!</p>
+
 <h2>Bio</h2>
 <p>
 I am a Ph.D. candidate in Institute of Operations Research and Analytics at the National University of Singapore, advised by <a href="https://www.joelgoh.net/" target="_blank" style="color: rgb(73, 78, 82);">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" style="color: rgb(73, 78, 82)">Sidika Tunc Candogan</a>.
@@ -32,7 +34,6 @@ My research focuses on data-driven decision-making and behavioral interventions 
 
 By bridging analytics with real-world implementation, my work provides insights that inform hospital operations and digital healthcare platforms. Through rigorous data analysis and experimentation, I aim to contribute to evidence-based decision-making in healthcare and service operations, offering practical implications for both academia and industry.
 
-<p style="font-weight: 600">I will be on the 2025-2026 academic job market!</p>
 </p>
 
 </body>
