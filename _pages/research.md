@@ -19,8 +19,8 @@ author_profile: false
 <h2>Published Papers</h2>
 <ol style="margin-top: 0em; margin-bottom: 1.2em;">
 	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" style="color: rgb(73, 78, 82); font-weight: 400; font-size: 14pt">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</a><br>
-	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 2024.
-	<i style="font-weight: 600">Management Science.</i></li>
+	Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi. 2025.
+	<i style="font-weight: 600">Management Science,</i> 71(7):6069-6091.</li>
 	<!--  -->
 	<li style="margin-bottom: 20px"><a href="https://doi.org/10.1016/j.jamda.2024.105154" target="_blank" style="color: rgb(73, 78, 82); font-weight: 400; font-size: 14pt">Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study</a><br>
 	Stephanie Q. Ko, Guang Cheng, Tze Yeong Teng, Joel Goh. 2024.
@@ -31,7 +31,7 @@ author_profile: false
 	<i style="font-weight: 600">INFORMS Journal on Applied Analytics</i>, 52(6):524-538.</li>
 	<!--  -->
 	<li style="margin-bottom: 20px"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jocs.14189" target="_blank" style="color: rgb(73, 78, 82); font-weight: 400; font-size: 14pt">To Extubate or Not to Extubate: Risk Factors for Extubation Failure and Deterioration with Further Mechanical Ventilation</a><br>
-	Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon-Cheong Ooi. 2019.
+	Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi. 2019.
 	<i style="font-weight: 600">Journal of Cardiac Surgery</i>, 34(10):1004–1011.</li>
 </ol>
 
