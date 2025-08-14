@@ -17,8 +17,8 @@ author_profile: false
 <ul>
 	<li>DAO1704 Decision Analytics using Spreadsheets (BBA Core), Spring 2023</li>
 		<ul>
-			<li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
-			<li>Teaching Excellence Award for Graduate Instructor</li>
+			<li>Teaching Evaluation: <b>4.2/5.0</b> (Department Average: 4.0)</li>
+			<li style="font-weight:600">Teaching Excellence Award for Graduate Instructor</li>
 			<li>Selected Comments from Students:</li>
 				<ul>
 					<li style="font-size: 11pt"><i>"Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Guang as my class tutor. He makes this module more bearable, especially for someone like me who is not inclined in math modules."</i></li>
