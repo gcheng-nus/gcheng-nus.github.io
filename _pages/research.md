@@ -38,7 +38,7 @@ author_profile: false
 
 
 <h2 style="margin-top: 1em;">Working Papers</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+<ol style="margin-top: 0em; margin-bottom: 1.2em;" start="5">
 	<li style="margin-bottom: 20px"><a href="https://ssrn.com/abstract=4956298" target="_blank" style="color: rgb(73, 78, 82); font-weight: 400; font-size: 14pt">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</a><br>
 	Guang Cheng, Sidika Tunc Candogan, Bilal Gokpinar, Joel Goh. Major Revision at <i style="font-weight: 600">Management Science.</i></li>
 	<ul style="margin-top: -0.5em; margin-bottom: 20px; font-size:11">
@@ -53,7 +53,7 @@ author_profile: false
 
 
 <h2 style="margin-top: 1em;">Working in Progress</h2>
-<ol style="margin-top: 0em; margin-bottom: 1.2em;">
+<ol style="margin-top: 0em; margin-bottom: 1.2em;" start="7">
 	<li><p style="color: rgb(73, 78, 82); font-weight: 400; margin-bottom: 0em; font-size: 14pt">Incentive Design for Hospital at Home</p>
 	with Eryn J. He, Joel Goh and Sergei Savin</li>
 	<li><p style="color: rgb(73, 78, 82); font-weight: 400; margin-bottom: 0em; font-size: 14pt">Appointment Management in Outpatient Clinics</p>
