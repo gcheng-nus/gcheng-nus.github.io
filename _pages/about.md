@@ -24,7 +24,7 @@ redirect_from:
   Email: gcheng [AT] u [DOT] nus [DOT] edu  <br>
 </p>
 
-<p style="font-weight: 600">I am on the 2025-2026 academic job market!</p>
+<!-- <p style="font-weight: 600">I am on the 2025-2026 academic job market!</p> -->
 
 <h2>Bio</h2>
 <p>
