@@ -94,6 +94,7 @@ redirect_from:
 
       <div class="paper-item">
         <span class="paper-num">5</span>
+        <p class="paper-title">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</p>
         <p class="paper-text">Guang Cheng, Sidika Tunc Candogan, Joel Goh, Bilal Gokpinar. "The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform." Under 2nd Round Revision at <em>Management Science.</em> <a class="paper-link" href="https://ssrn.com/abstract=4956298" target="_blank" rel="noopener">[SSRN]</a></p>
         <ul class="paper-highlights">
           <li>Finalist, 2025 POMS PITM Best Student Paper Competition</li>
