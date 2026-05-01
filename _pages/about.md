@@ -43,7 +43,7 @@ redirect_from:
             <div>
               <p class="eyebrow">Topics</p>
               <ul class="plain-list">
-                <li>Data-Driven Operations in Healthcare</li>
+                <li>Data-Driven Healthcare Operations</li>
                 <li>Digital Health Platforms</li>
               </ul>
             </div>
