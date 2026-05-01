@@ -387,7 +387,14 @@ body.academic-site {
 
 .interests-grid > div {
   min-width: 0;
-  transform: translateX(32px);
+}
+
+.interests-grid > div:first-child {
+  transform: translateX(64px);
+}
+
+.interests-grid > div:last-child {
+  transform: translateX(84px);
 }
 
 .eyebrow {
@@ -857,6 +864,11 @@ body.academic-site {
   .interests-grid {
     grid-template-columns: 1fr;
     gap: 22px;
+  }
+
+  .interests-grid > div:first-child,
+  .interests-grid > div:last-child {
+    transform: none;
   }
 
   .paper-item,
