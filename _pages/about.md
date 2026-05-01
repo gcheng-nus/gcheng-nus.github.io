@@ -13,9 +13,9 @@ redirect_from:
   <div class="academic-container">
     <div class="intro-hero fade-in">
       <h1 id="home-intro-title" class="intro-name">Guang Cheng</h1>
-      <p class="intro-lede">From Data to Better Healthcare Decisions.</p>
+      <p class="intro-lede">From data to better healthcare decisions.</p>
       <div class="intro-actions">
-        <a class="academic-button academic-button--primary intro-button" href="{{ '/CV/CV_Guang.pdf' | relative_url }}">View My CV</a>
+        <a class="academic-button academic-button--primary intro-button" href="{{ '/CV/CV_Guang.pdf' | relative_url }}" target="_blank" rel="noopener">View My CV</a>
       </div>
     </div>
   </div>
