@@ -153,6 +153,10 @@ redirect_from:
   <div class="academic-container fade-in">
     <h2 class="section-title">Teaching</h2>
 
+    <figure class="teaching-photo">
+      <img src="{{ '/images/teaching.jpeg' | relative_url }}" alt="Classroom teaching session" loading="lazy">
+    </figure>
+
     <div class="teaching-role">
       <h3 class="section-subtitle">Instructor</h3>
       <p class="course-title">DAO1704 Decision Analytics using Spreadsheets <span class="muted-note">(BBA Core)</span></p>
