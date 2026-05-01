@@ -595,13 +595,6 @@ body.academic-site.is-locked {
   line-height: 1.8;
 }
 
-.cv-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-
 .academic-site .academic-button {
   display: inline-flex;
   min-height: 40px;
@@ -646,15 +639,6 @@ body.academic-site.is-locked {
   background: #0066cc;
   color: #fff;
   text-decoration: none;
-}
-
-.cv-frame {
-  width: 100%;
-  height: 78vh;
-  min-height: 620px;
-  border: 1px solid var(--academic-border);
-  border-radius: 8px;
-  background: #fff;
 }
 
 .not-found-panel {
@@ -828,10 +812,6 @@ body.academic-site.is-locked {
     white-space: normal;
   }
 
-  .cv-frame {
-    height: 70vh;
-    min-height: 480px;
-  }
 }
 
 @media (max-width: 520px) {

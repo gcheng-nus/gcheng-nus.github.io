@@ -15,7 +15,7 @@ redirect_from:
       <h1 id="home-intro-title" class="intro-name">Guang Cheng</h1>
       <p class="intro-lede">From Data to Better Healthcare Decisions.</p>
       <div class="intro-actions">
-        <a class="academic-button academic-button--primary intro-button" href="{{ '/cv/' | relative_url }}">View CV</a>
+        <a class="academic-button academic-button--primary intro-button" href="{{ '/CV/CV_Guang.pdf' | relative_url }}">View CV</a>
       </div>
     </div>
   </div>
