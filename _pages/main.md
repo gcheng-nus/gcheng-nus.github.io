@@ -202,3 +202,30 @@ redirect_from:
     </div>
   </div>
 </section>
+
+<section id="miscellaneous" class="academic-section academic-section--band">
+  <div class="academic-container fade-in">
+    <h2 class="section-title">Miscellaneous</h2>
+
+    <div class="misc-card">
+      <div class="misc-header">
+        <h3 class="section-subtitle">Personal Interests</h3>
+        <ul class="misc-interests">
+          <li>Traveling</li>
+          <li>Hiking</li>
+          <li>Photography</li>
+        </ul>
+      </div>
+
+      {% assign misc_photos = "Bali Seaview|Bali Sunset|Durham|Grand Canyon|Hong Kong Ham Tin Wan|Jeju Hallasan|Jeju Island|Jeju|London|Singapore East Coast|Singapore MBS|Valle" | split: "|" %}
+      <div class="photo-grid">
+        {% for photo in misc_photos %}
+          <figure class="photo-card">
+            <img src="{{ '/photos/' | append: photo | append: '.jpeg' | relative_url }}" alt="{{ photo }}">
+            <figcaption>{{ photo }}</figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
