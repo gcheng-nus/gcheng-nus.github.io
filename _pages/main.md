@@ -217,7 +217,7 @@ redirect_from:
         </ul>
       </div>
 
-      {% assign misc_photos = "Bali Seaview|Bali Sunset|Durham|Grand Canyon|Hong Kong Ham Tin Wan|Jeju Hallasan|Jeju Island|Jeju|London|Singapore East Coast|Singapore MBS|Valle" | split: "|" %}
+      {% assign misc_photos = "Bali Seaview|Bali Sunset|Durham|Grand Canyon|Hong Kong Ham Tin Wan|Jeju Hallasan|Jeju Island|Jeju|London|East Coast Park, Singapore|Marina Bay Sands, Singapore|Valle|Sai Kung East Park, Hong Kong" | split: "|" %}
       <div class="photo-grid">
         {% for photo in misc_photos %}
           <figure class="photo-card">
