@@ -85,7 +85,7 @@
           navLinks.forEach(function (link) {
             var linkUrl = new URL(link.href);
             var linkPath = normalizePath(linkUrl.pathname);
-            var linkSection = link.getAttribute('data-section');
+            var linkSection = getLinkSection(link);
 
             if (currentHash && linkSection === currentHash) {
               activeLink = link;
@@ -127,9 +127,22 @@
           });
         }
 
+        function getLinkSection(link) {
+          if (link.getAttribute('data-section')) {
+            return link.getAttribute('data-section');
+          }
+
+          return link.hash ? link.hash.replace('#', '') : '';
+        }
+
         var sectionItems = navLinks.map(function (link) {
-          var sectionId = link.getAttribute('data-section');
+          var sectionId = getLinkSection(link);
           var section = sectionId ? document.getElementById(sectionId) : null;
+
+          if (section && !link.getAttribute('data-section')) {
+            link.setAttribute('data-section', sectionId);
+          }
+
           return section ? { link: link, section: section } : null;
         }).filter(Boolean);
         var activeTicking = false;
@@ -140,12 +153,20 @@
             return;
           }
 
-          var offset = Math.max(nav ? nav.offsetHeight + 32 : 96, window.innerHeight * 0.38);
+          var navOffset = nav ? nav.offsetHeight : 0;
+          var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
           var activeItem = sectionItems[0];
+          var activeVisible = 0;
 
           sectionItems.forEach(function (item) {
-            if (item.section.getBoundingClientRect().top <= offset) {
+            var rect = item.section.getBoundingClientRect();
+            var visibleTop = Math.max(rect.top, navOffset);
+            var visibleBottom = Math.min(rect.bottom, viewportHeight);
+            var visibleHeight = Math.max(0, visibleBottom - visibleTop);
+
+            if (visibleHeight > activeVisible) {
               activeItem = item;
+              activeVisible = visibleHeight;
             }
           });
 
