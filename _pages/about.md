@@ -119,7 +119,7 @@ redirect_from:
       </div>
 
       <div class="wip-item">
-        <span class="paper-num">93</span>
+        <span class="paper-num">3</span>
         <p class="paper-title">Retain Clients on Mental Health Platforms Using Behavioral Nudges</p>
         <p class="paper-text">with Sidika Tunc Candogan and Yueyang Zhong</p>
       </div>
