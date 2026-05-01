@@ -107,7 +107,7 @@ body.academic-site.is-locked {
   text-decoration: none;
 }
 
-.academic-nav__links a.is-active {
+.academic-nav__links .academic-nav__pill {
   display: inline-flex;
   align-items: center;
   min-height: 36px;
@@ -117,7 +117,7 @@ body.academic-site.is-locked {
   color: #fff;
 }
 
-.academic-nav__links a.is-active:hover {
+.academic-nav__links .academic-nav__pill:hover {
   background: var(--academic-primary);
   color: #fff;
 }
@@ -679,8 +679,8 @@ body.academic-site.is-locked {
     color: var(--academic-fg);
   }
 
-  .academic-nav__links a.is-active,
-  .academic-nav__links a.is-active:hover {
+  .academic-nav__links .academic-nav__pill,
+  .academic-nav__links .academic-nav__pill:hover {
     background: var(--academic-fg);
     color: #fff;
   }

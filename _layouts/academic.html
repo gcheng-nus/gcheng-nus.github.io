@@ -35,7 +35,7 @@
           <li>
             <a
               {% if link_section != "" %}data-section="{{ link_section }}"{% endif %}
-              {% if page.url == link.url or page.title == link.title %}class="is-active" aria-current="page"{% endif %}
+              {% if page.url == link.url or page.title == link.title %}class="academic-nav__pill" aria-current="page"{% endif %}
               href="{{ link.url | relative_url }}"
             >{{ link.title }}</a>
           </li>
@@ -63,12 +63,12 @@
 
         function setActiveLink(activeLink) {
           navLinks.forEach(function (link) {
-            link.classList.remove('is-active');
+            link.classList.remove('academic-nav__pill');
             link.removeAttribute('aria-current');
           });
 
           if (activeLink) {
-            activeLink.classList.add('is-active');
+            activeLink.classList.add('academic-nav__pill');
             activeLink.setAttribute('aria-current', 'page');
           }
         }
