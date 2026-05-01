@@ -154,7 +154,7 @@ redirect_from:
       <p class="course-title">DOS3703 Service Operations Management <span class="muted-note">(BBA)</span></p>
       <p class="course-meta">Spring 2026</p>
 
-      <p class="course-title">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></p>
+      <p class="course-title course-title--spaced">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></p>
       <p class="course-meta">Spring 2025</p>
       <p class="course-note">Delivered two lectures on machine learning techniques and their applications.</p>
 
