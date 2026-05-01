@@ -41,14 +41,14 @@ redirect_from:
           <div class="interests-grid">
             <div>
               <p class="eyebrow">Topics</p>
-              <ul class="plain-list">
+              <ul class="interest-list">
                 <li>Data-Driven Healthcare Operations</li>
                 <li>Digital Health Platforms</li>
               </ul>
             </div>
             <div>
               <p class="eyebrow">Methodologies</p>
-              <ul class="plain-list">
+              <ul class="interest-list">
                 <li>Econometric Analysis</li>
                 <li>Field Experiments</li>
                 <li>Data Analytics</li>

@@ -306,7 +306,7 @@ body.academic-site.is-locked {
   text-transform: uppercase;
 }
 
-.plain-list,
+.interest-list,
 .ta-list,
 .course-details,
 .paper-highlights {
@@ -314,12 +314,11 @@ body.academic-site.is-locked {
   padding: 0;
 }
 
-// .plain-list,
 .ta-list {
   list-style: none;
 }
 
-.plain-list li {
+.interest-list li {
   padding: 4px 0;
   color: var(--academic-muted);
   font-size: 0.92rem;
