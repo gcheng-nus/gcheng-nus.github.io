@@ -129,14 +129,14 @@ body.academic-site {
 }
 
 .academic-nav__links .academic-nav__pill {
-  background: rgba(0, 0, 0, 0.08);
+  background: var(--academic-primary);
   box-shadow: none;
-  color: var(--academic-fg);
+  color: #fff;
 }
 
 .academic-nav__links .academic-nav__pill:hover {
-  background: rgba(0, 0, 0, 0.1);
-  color: var(--academic-fg);
+  background: var(--academic-primary-strong);
+  color: #fff;
 }
 
 .academic-menu-toggle {
@@ -784,8 +784,8 @@ body.academic-site {
 
   .academic-nav__links .academic-nav__pill,
   .academic-nav__links .academic-nav__pill:hover {
-    background: rgba(0, 0, 0, 0.08);
-    color: var(--academic-fg);
+    background: var(--academic-primary);
+    color: #fff;
   }
 
   .academic-section,
