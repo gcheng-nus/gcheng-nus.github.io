@@ -2,22 +2,17 @@
 ---
 
 <!doctype html>
-<html lang="{{ site.locale | default: "en-US" | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | default: "en-US" | slice: 0,2 }}">
   <head>
     <meta charset="utf-8">
     {% include seo.html %}
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#fafafa">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '../images/favicon.ico' | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/images/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
-    <script>
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';
-    </script>
   </head>
 
-  <body class="academic-site{% if page.url == "/" %} academic-site--home{% endif %}">
+  <body class="academic-site">
     <nav id="academic-nav" class="academic-nav" aria-label="Primary navigation">
       <div class="academic-nav__inner">
         <a class="academic-brand" href="{{ '/' | relative_url }}">{{ site.name | default: "Guang Cheng" }}</a>
@@ -35,7 +30,6 @@
             <li>
               <a
                 {% if link_section != "" %}data-section="{{ link_section }}"{% endif %}
-                {% if page.url == link.url or page.title == link.title %}class="academic-nav__pill" aria-current="page"{% endif %}
                 href="{{ link.url | relative_url }}"
               >{{ link.title }}</a>
             </li>
@@ -71,32 +65,6 @@
           if (activeLink) {
             activeLink.classList.add('academic-nav__pill');
             activeLink.setAttribute('aria-current', 'page');
-          }
-        }
-
-        function normalizePath(path) {
-          return path.replace(/\/index\.html$/, '/');
-        }
-
-        function setActiveFromLocation() {
-          var currentPath = normalizePath(window.location.pathname);
-          var currentHash = window.location.hash.replace('#', '');
-          var activeLink = null;
-
-          navLinks.forEach(function (link) {
-            var linkUrl = new URL(link.href);
-            var linkPath = normalizePath(linkUrl.pathname);
-            var linkSection = getLinkSection(link);
-
-            if (currentHash && linkSection === currentHash) {
-              activeLink = link;
-            } else if (!currentHash && !linkSection && currentPath === linkPath) {
-              activeLink = link;
-            }
-          });
-
-          if (activeLink) {
-            setActiveLink(activeLink);
           }
         }
 
@@ -151,7 +119,7 @@
 
         function updateActiveSection() {
           if (!sectionItems.length) {
-            setActiveFromLocation();
+            setActiveLink(null);
             return;
           }
 
