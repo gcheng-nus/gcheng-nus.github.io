@@ -151,18 +151,23 @@ redirect_from:
         <p>"He is very enthusiastic and passionate! He goes the extra mile in ensuring students have enough feedback, practice, and consultation time."</p>
       </div>
     </div>
-
+DOS3703 Service Operations Management (BBA) \hfill Spring 2026
     <div class="teaching-role">
       <h3 class="section-subtitle">Guest Lecturer</h3>
+      <!--  -->
+      <p class="course-title">DOS3703 Service Operations Management <span class="muted-note">(BBA)</span></p>
+      <p class="course-meta">Spring 2026</p>
+      <!-- <p class="course-note">Delivered two lectures on machine learning techniques and their applications.</p> -->
+<!--  -->
       <p class="course-title">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></p>
       <p class="course-meta">Spring 2025</p>
       <p class="course-note">Delivered two lectures on machine learning techniques and their applications.</p>
-
+<!--  -->
       <p class="course-title course-title--spaced">PHM5014 Causal Inference in Precision Medicine <span class="muted-note">(MScPHM)</span></p>
       <p class="course-meta">Fall 2024</p>
       <p class="course-note">Presented the Safe Space experiment to illustrate real-world applications of causal inference.</p>
     </div>
-
+<!--  -->
     <div class="teaching-role">
       <h3 class="section-subtitle">Teaching Assistant</h3>
       <ul class="ta-list">
