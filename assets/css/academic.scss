@@ -280,8 +280,18 @@ body.academic-site {
 
 .about-content {
   width: min(760px, 100%);
-  margin: 0;
+  margin: 0 auto;
   text-align: left;
+}
+
+.bio,
+.interests {
+  width: 100%;
+  padding: 36px;
+  border: 1px solid var(--academic-border);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .bio p {
@@ -316,7 +326,7 @@ body.academic-site {
 }
 
 .interests {
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 .about-content .section-subtitle {
@@ -757,6 +767,11 @@ body.academic-site {
 
   .intro-actions {
     margin-top: 0;
+  }
+
+  .bio,
+  .interests {
+    padding: 24px;
   }
 
   .paper-item,
