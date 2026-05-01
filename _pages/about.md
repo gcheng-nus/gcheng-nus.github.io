@@ -29,9 +29,9 @@ redirect_from:
 
 <section id="about" class="academic-section academic-section--about">
   <div class="academic-container">
-    <div class="about-content fade-in">
     <h2 class="section-title">About Me</h2>
-
+    <div class="about-content fade-in">
+    
       <div class="bio">
         <p>I am a Ph.D. candidate in Institute of Operations Research and Analytics at the National University of Singapore, advised by <a href="https://www.joelgoh.net/" target="_blank" rel="noopener">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" rel="noopener">Sidika Tunc Candogan</a>.</p>
         <p>My research focuses on practitioner-inspired and data-grounded problems in healthcare operations. Methodologically, I apply analytical modeling, empirical analysis, and field experimentation to develop evidence-based tools for decision-making in healthcare delivery. By bridging analytics with real-world implementation, my work generates insights that inform hospital and digital healthcare platform operations.</p>
