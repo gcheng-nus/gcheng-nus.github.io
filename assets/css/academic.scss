@@ -314,7 +314,7 @@ body.academic-site.is-locked {
   padding: 0;
 }
 
-.plain-list,
+// .plain-list,
 .ta-list {
   list-style: none;
 }
@@ -323,6 +323,7 @@ body.academic-site.is-locked {
   padding: 4px 0;
   color: var(--academic-muted);
   font-size: 0.92rem;
+  list-style: disc;
 }
 
 .papers-group {
