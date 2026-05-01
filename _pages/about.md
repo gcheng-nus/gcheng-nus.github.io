@@ -22,7 +22,7 @@ redirect_from:
       <p class="intro-lede">National University of Singapore</p> -->
       <div class="intro-actions">
         <a class="academic-button academic-button--primary intro-button" href="{{ '/CV/CV_Guang.pdf' | relative_url }}" target="_blank" rel="noopener">View My CV</a>
-        <a class="academic-button academic-button--secondary intro-button" href="mailto:gcheng@u.nus.edu">Email Me</a>
+        <a class="academic-button academic-button--primary intro-button" href="mailto:gcheng@u.nus.edu">Email Me</a>
       </div>
     </div>
   </div>
