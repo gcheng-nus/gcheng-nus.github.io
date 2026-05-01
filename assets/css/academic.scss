@@ -686,6 +686,19 @@ body.academic-site {
   text-decoration: none;
 }
 
+.academic-site .academic-button--secondary {
+  border-color: var(--academic-primary);
+  background: transparent;
+  color: var(--academic-primary);
+}
+
+.academic-site .academic-button--secondary:hover {
+  border-color: var(--academic-primary);
+  background: var(--academic-primary);
+  color: #fff;
+  text-decoration: none;
+}
+
 .not-found-panel {
   max-width: 620px;
 }
