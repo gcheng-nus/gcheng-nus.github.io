@@ -140,7 +140,7 @@
             return;
           }
 
-          var offset = nav ? nav.offsetHeight + 32 : 96;
+          var offset = Math.max(nav ? nav.offsetHeight + 32 : 96, window.innerHeight * 0.38);
           var activeItem = sectionItems[0];
 
           sectionItems.forEach(function (item) {
