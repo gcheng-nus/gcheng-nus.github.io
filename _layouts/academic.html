@@ -1,0 +1,103 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="{{ site.locale | default: "en-US" | slice: 0,2 }}" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fafafa">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link href="{{ '/feed.xml' | relative_url }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js';
+    </script>
+  </head>
+
+  <body class="academic-site{% if page.url == "/" %} academic-site--home{% endif %}">
+    <nav id="academic-nav" class="academic-nav" aria-label="Primary navigation">
+      <a class="academic-brand" href="{{ '/' | relative_url }}">{{ site.name | default: "Guang Cheng" }}</a>
+      <button class="academic-menu-toggle" type="button" aria-expanded="false" aria-controls="academic-nav-links" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="academic-nav-links" class="academic-nav__links">
+        {% for link in site.data.navigation.main %}
+          <li>
+            <a class="{% if link.title == 'CV' %}academic-nav__pill{% endif %}" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {{ content }}
+
+    <footer class="academic-footer">
+      <p>&copy; <span id="academic-year">{{ site.time | date: "%Y" }}</span> {{ site.name | default: "Guang Cheng" }}. All rights reserved.</p>
+    </footer>
+
+    <script>
+      (function () {
+        var nav = document.getElementById('academic-nav');
+        var year = document.getElementById('academic-year');
+        var toggle = document.querySelector('.academic-menu-toggle');
+        var links = document.getElementById('academic-nav-links');
+
+        if (year) {
+          year.textContent = new Date().getFullYear();
+        }
+
+        function setNavState() {
+          if (nav) {
+            nav.classList.toggle('is-scrolled', window.scrollY > 20);
+          }
+        }
+
+        setNavState();
+        window.addEventListener('scroll', setNavState, { passive: true });
+
+        if (toggle && links) {
+          toggle.addEventListener('click', function () {
+            var expanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!expanded));
+            links.classList.toggle('is-open', !expanded);
+          });
+
+          links.addEventListener('click', function (event) {
+            if (event.target.tagName === 'A') {
+              toggle.setAttribute('aria-expanded', 'false');
+              links.classList.remove('is-open');
+            }
+          });
+        }
+
+        var items = document.querySelectorAll('.fade-in');
+        if (!('IntersectionObserver' in window)) {
+          Array.prototype.forEach.call(items, function (item) {
+            item.classList.add('is-visible');
+          });
+          return;
+        }
+
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08, rootMargin: '0px 0px -56px 0px' });
+
+        Array.prototype.forEach.call(items, function (item) {
+          observer.observe(item);
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Guang Cheng"
 title_separator          : "-"
 name                     : &name "Guang Cheng"
-description              : &description "personal description"
+description              : &description "Ph.D. candidate in Operations Research and Analytics at the National University of Singapore."
 url                      : https://gcheng-nus.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gcheng-nus/gcheng-nus.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : " "
+  name             : "Guang Cheng"
   avatar           : "profile.png"
   bio              : ""
   location         : "Singapore, SG"
