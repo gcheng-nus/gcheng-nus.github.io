@@ -16,7 +16,7 @@ redirect_from:
         <div class="avatar">
           <img src="{{ '/images/profile.png' | relative_url }}" alt="Guang Cheng">
         </div>
-        <h1 class="hero-name">Guang<br>Cheng</h1>
+        <h1 class="hero-name">Guang Cheng</h1>
         <p class="hero-title">Ph.D. Candidate</p>
         <p class="hero-institution">
           Institute of Operations Research and Analytics (IORA)<br>
