@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Guang Cheng"
 title_separator          : "-"
-name                     : &name "Guang Cheng"
+name                     : &name " "
 description              : &description "Ph.D. candidate in Operations Research and Analytics at the National University of Singapore."
 url                      : https://gcheng-nus.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
