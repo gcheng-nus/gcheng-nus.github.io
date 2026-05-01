@@ -20,7 +20,7 @@
 
   <body class="academic-site{% if page.url == "/" %} academic-site--home{% endif %}">
     <nav id="academic-nav" class="academic-nav" aria-label="Primary navigation">
-      <a class="academic-brand" href="{{ '/' | relative_url }}">{{ site.name | default: "Guang Cheng" }}</a>
+      <a class="academic-brand" href="{{ '/' | relative_url }}">{{ site.name | default: "" }}</a>
       <button class="academic-menu-toggle" type="button" aria-expanded="false" aria-controls="academic-nav-links" aria-label="Toggle navigation">
         <span></span>
         <span></span>
