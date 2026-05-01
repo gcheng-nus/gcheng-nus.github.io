@@ -202,31 +202,3 @@ redirect_from:
     </div>
   </div>
 </section>
-
-<section id="miscellaneous" class="academic-section academic-section--band">
-  <div class="academic-container fade-in">
-    <h2 class="section-title">Miscellaneous</h2>
-
-    <div class="misc-card">
-      <div class="misc-header">
-        <h3 class="section-subtitle">Personal Interests</h3>
-        <ul class="misc-interests">
-          <li>Traveling</li>
-          <li>Hiking</li>
-          <li>Photography</li>
-        </ul>
-      </div>
-
-      {% assign misc_photos = site.static_files | where_exp: "file", "file.path contains '/photos/'" | sort: "path" %}
-      <div class="photo-grid">
-        {% for photo in misc_photos %}
-          {% assign photo_title = photo.name | remove: photo.extname | replace: "-", " " | replace: "_", " " %}
-          <figure class="photo-card">
-            <img src="{{ photo.path | relative_url }}" alt="{{ photo_title }}">
-            <figcaption>{{ photo_title }}</figcaption>
-          </figure>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
