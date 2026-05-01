@@ -780,3 +780,16 @@ body.academic-site.is-locked {
     padding-left: 24px;
   }
 }
+
+.papers-group {
+  counter-reset: paper-counter;
+}
+
+.paper-item,
+.wip-item {
+  counter-increment: paper-counter;
+}
+
+.paper-num::before {
+  content: counter(paper-counter);
+}
