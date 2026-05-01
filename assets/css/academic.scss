@@ -90,20 +90,22 @@ body.academic-site.is-locked {
 .academic-nav__links {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
   margin: 0;
   padding: 6px;
+  border: 1px solid rgba(16, 24, 40, 0.04);
   border-radius: 999px;
-  background: #ececf1;
+  background: #ededf2;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
   list-style: none;
 }
 
 .academic-nav__links a {
   display: inline-flex;
-  min-height: 40px;
+  min-height: 42px;
   align-items: center;
   justify-content: center;
-  padding: 0 24px;
+  padding: 0 26px;
   border-radius: 999px;
   color: var(--academic-muted);
   font-size: 0.9rem;
@@ -111,12 +113,14 @@ body.academic-site.is-locked {
 }
 
 .academic-nav__links a:hover {
+  background: rgba(255, 255, 255, 0.46);
   color: var(--academic-fg);
   text-decoration: none;
 }
 
 .academic-nav__links .academic-nav__pill {
   background: var(--academic-fg);
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.18);
   color: #fff;
 }
 
