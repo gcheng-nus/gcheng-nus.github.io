@@ -77,31 +77,16 @@ redirect_from:
 
       <div class="paper-item">
         <span class="paper-num">2</span>
-        <p class="paper-title">Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study</p>
-        <p class="paper-text">Stephanie Q. Ko, Guang Cheng, Tze Yeong Teng, Joel Goh</p> 
-        <p class="paper-text"><em>Journal of the American Medical Directors Association</em>, 2024, 25(9):105154. <a class="paper-link" href="https://doi.org/10.1016/j.jamda.2024.105154" target="_blank" rel="noopener">[Link]</a></p>
-      </div>
-
-      <div class="paper-item">
-        <span class="paper-num">3</span>
         <p class="paper-title">On the Test Accuracy and Effective Control of the COVID-19 Pandemic: A Case Study in Singapore</p>
         <p class="paper-text">Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng</p> 
         <p class="paper-text"><em>INFORMS Journal on Applied Analytics</em>, 2022, 52(6):524-538. <a class="paper-link" href="https://doi.org/10.1287/inte.2022.1117" target="_blank" rel="noopener">[Link]</a></p>
       </div>
 
-      <div class="paper-item">
-        <span class="paper-num">4</span>
-        <p class="paper-title">To Extubate or Not to Extubate: Risk Factors for Extubation Failure and Deterioration with Further Mechanical Ventilation</p>
-        <p class="paper-text">Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi</p> 
-        <p class="paper-text"><em>Journal of Cardiac Surgery</em>, 2019, 34(10):1004-1011. <a class="paper-link" href="https://doi.org/10.1111/jocs.14189" target="_blank" rel="noopener">[Link]</a></p>
-      </div>
-    </div>
-
     <div class="papers-group">
       <h3 class="section-subtitle">Working Papers</h3>
 
       <div class="paper-item">
-        <span class="paper-num">5</span>
+        <span class="paper-num">1</span>
         <p class="paper-title">The Role of Contextual Information in Customer Reviews: A Field Experiment on a Mental Health Platform</p>
         <p class="paper-text">Guang Cheng, Sidika Tunc Candogan, Joel Goh, Bilal Gokpinar</p> 
         <p class="paper-text">Under 2nd Round Revision at <em>Management Science.</em> <a class="paper-link" href="https://ssrn.com/abstract=4956298" target="_blank" rel="noopener">[SSRN]</a></p>
@@ -112,7 +97,7 @@ redirect_from:
       </div>
 
       <div class="paper-item">
-        <span class="paper-num">6</span>
+        <span class="paper-num">2</span>
         <p class="paper-title">The Impact of Introducing Release Times for Operating Rooms on Surgery Waiting Times</p>
         <p class="paper-text">Guang Cheng, Joshua M. Hagood, Ryan L. Melvin, Adam F. Kohutnicki, Mitchell H. Tsai, Joel Goh</p>
       </div>
@@ -122,23 +107,42 @@ redirect_from:
       <h3 class="section-subtitle">Work in Progress</h3>
 
       <div class="wip-item">
-        <span class="paper-num">7</span>
+        <span class="paper-num">1</span>
         <p class="paper-title">Incentive Design for Hospital at Home</p>
         <p class="paper-text"> with Eryn J. He, Joel Goh, and Sergei Savin</p>
       </div>
 
       <div class="wip-item">
-        <span class="paper-num">8</span>
+        <span class="paper-num">2</span>
         <p class="paper-title">Appointment Management in Outpatient Clinics</p>
         <p class="paper-text">with Joel Goh and Hong Ming Tan</p>
       </div>
 
       <div class="wip-item">
-        <span class="paper-num">9</span>
+        <span class="paper-num">93</span>
         <p class="paper-title">Retain Clients on Mental Health Platforms Using Behavioral Nudges</p>
         <p class="paper-text">with Sidika Tunc Candogan and Yueyang Zhong</p>
       </div>
     </div>
+
+    <div class="papers-group">
+      <h3 class="section-subtitle">Practitioner-Oriented Publications</h3>
+
+      <div class="paper-item">
+        <span class="paper-num">1</span>
+        <p class="paper-title">Home-First or Hospital-First? A Propensity Score-Weighted Retrospective Cohort Study</p>
+        <p class="paper-text">Stephanie Q. Ko, Guang Cheng, Tze Yeong Teng, Joel Goh</p> 
+        <p class="paper-text"><em>Journal of the American Medical Directors Association</em>, 2024, 25(9):105154. <a class="paper-link" href="https://doi.org/10.1016/j.jamda.2024.105154" target="_blank" rel="noopener">[Link]</a></p>
+      </div>
+
+      <div class="paper-item">
+        <span class="paper-num">2</span>
+        <p class="paper-title">To Extubate or Not to Extubate: Risk Factors for Extubation Failure and Deterioration with Further Mechanical Ventilation</p>
+        <p class="paper-text">Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi</p> 
+        <p class="paper-text"><em>Journal of Cardiac Surgery</em>, 2019, 34(10):1004-1011. <a class="paper-link" href="https://doi.org/10.1111/jocs.14189" target="_blank" rel="noopener">[Link]</a></p>
+      </div>
+    </div>
+
   </div>
 </section>
 
