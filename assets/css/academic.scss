@@ -90,13 +90,21 @@ body.academic-site.is-locked {
 .academic-nav__links {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 4px;
   margin: 0;
-  padding: 0;
+  padding: 6px;
+  border-radius: 999px;
+  background: #ececf1;
   list-style: none;
 }
 
 .academic-nav__links a {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  border-radius: 999px;
   color: var(--academic-muted);
   font-size: 0.9rem;
   font-weight: 550;
@@ -108,11 +116,6 @@ body.academic-site.is-locked {
 }
 
 .academic-nav__links .academic-nav__pill {
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 0 18px;
-  border-radius: 999px;
   background: var(--academic-fg);
   color: #fff;
 }
