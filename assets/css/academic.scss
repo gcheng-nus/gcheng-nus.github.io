@@ -107,7 +107,7 @@ body.academic-site.is-locked {
   text-decoration: none;
 }
 
-.academic-nav__links .academic-nav__pill {
+.academic-nav__links a.is-active {
   display: inline-flex;
   align-items: center;
   min-height: 36px;
@@ -117,7 +117,7 @@ body.academic-site.is-locked {
   color: #fff;
 }
 
-.academic-nav__links .academic-nav__pill:hover {
+.academic-nav__links a.is-active:hover {
   background: var(--academic-primary);
   color: #fff;
 }
@@ -662,8 +662,7 @@ body.academic-site.is-locked {
     width: 100%;
   }
 
-  .academic-nav__links a,
-  .academic-nav__links .academic-nav__pill {
+  .academic-nav__links a {
     display: flex;
     min-height: 44px;
     align-items: center;
@@ -675,10 +674,15 @@ body.academic-site.is-locked {
     color: var(--academic-fg);
   }
 
-  .academic-nav__links a:hover,
-  .academic-nav__links .academic-nav__pill:hover {
+  .academic-nav__links a:hover {
     background: var(--academic-band);
     color: var(--academic-fg);
+  }
+
+  .academic-nav__links a.is-active,
+  .academic-nav__links a.is-active:hover {
+    background: var(--academic-fg);
+    color: #fff;
   }
 
   .academic-section,

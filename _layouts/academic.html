@@ -28,8 +28,16 @@
       </button>
       <ul id="academic-nav-links" class="academic-nav__links">
         {% for link in site.data.navigation.main %}
+          {% assign link_section = "" %}
+          {% if link.url contains "#" %}
+            {% assign link_section = link.url | split: "#" | last %}
+          {% endif %}
           <li>
-            <a class="{% if link.title == 'CV' %}academic-nav__pill{% endif %}" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+            <a
+              {% if link_section != "" %}data-section="{{ link_section }}"{% endif %}
+              {% if page.url == link.url or page.title == link.title %}class="is-active" aria-current="page"{% endif %}
+              href="{{ link.url | relative_url }}"
+            >{{ link.title }}</a>
           </li>
         {% endfor %}
       </ul>
@@ -47,9 +55,48 @@
         var year = document.getElementById('academic-year');
         var toggle = document.querySelector('.academic-menu-toggle');
         var links = document.getElementById('academic-nav-links');
+        var navLinks = links ? Array.prototype.slice.call(links.querySelectorAll('a')) : [];
 
         if (year) {
           year.textContent = new Date().getFullYear();
+        }
+
+        function setActiveLink(activeLink) {
+          navLinks.forEach(function (link) {
+            link.classList.remove('is-active');
+            link.removeAttribute('aria-current');
+          });
+
+          if (activeLink) {
+            activeLink.classList.add('is-active');
+            activeLink.setAttribute('aria-current', 'page');
+          }
+        }
+
+        function normalizePath(path) {
+          return path.replace(/\/index\.html$/, '/');
+        }
+
+        function setActiveFromLocation() {
+          var currentPath = normalizePath(window.location.pathname);
+          var currentHash = window.location.hash.replace('#', '');
+          var activeLink = null;
+
+          navLinks.forEach(function (link) {
+            var linkUrl = new URL(link.href);
+            var linkPath = normalizePath(linkUrl.pathname);
+            var linkSection = link.getAttribute('data-section');
+
+            if (currentHash && linkSection === currentHash) {
+              activeLink = link;
+            } else if (!currentHash && !linkSection && currentPath === linkPath) {
+              activeLink = link;
+            }
+          });
+
+          if (activeLink) {
+            setActiveLink(activeLink);
+          }
         }
 
         function setNavState() {
@@ -72,9 +119,55 @@
             if (event.target.tagName === 'A') {
               toggle.setAttribute('aria-expanded', 'false');
               links.classList.remove('is-open');
+
+              if (event.target.getAttribute('data-section')) {
+                setActiveLink(event.target);
+              }
             }
           });
         }
+
+        var sectionItems = navLinks.map(function (link) {
+          var sectionId = link.getAttribute('data-section');
+          var section = sectionId ? document.getElementById(sectionId) : null;
+          return section ? { link: link, section: section } : null;
+        }).filter(Boolean);
+        var activeTicking = false;
+
+        function updateActiveSection() {
+          if (!sectionItems.length) {
+            setActiveFromLocation();
+            return;
+          }
+
+          var offset = nav ? nav.offsetHeight + 32 : 96;
+          var activeItem = sectionItems[0];
+
+          sectionItems.forEach(function (item) {
+            if (item.section.getBoundingClientRect().top <= offset) {
+              activeItem = item;
+            }
+          });
+
+          setActiveLink(activeItem.link);
+        }
+
+        function requestActiveSectionUpdate() {
+          if (activeTicking) {
+            return;
+          }
+
+          activeTicking = true;
+          window.requestAnimationFrame(function () {
+            updateActiveSection();
+            activeTicking = false;
+          });
+        }
+
+        updateActiveSection();
+        window.addEventListener('scroll', requestActiveSectionUpdate, { passive: true });
+        window.addEventListener('resize', requestActiveSectionUpdate);
+        window.addEventListener('hashchange', updateActiveSection);
 
         var items = document.querySelectorAll('.fade-in');
         if (!('IntersectionObserver' in window)) {
