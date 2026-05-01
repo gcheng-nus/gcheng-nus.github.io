@@ -142,7 +142,6 @@ redirect_from:
         <p class="paper-text"><em>Journal of Cardiac Surgery</em>, 2019, 34(10):1004-1011. <a class="paper-link" href="https://doi.org/10.1111/jocs.14189" target="_blank" rel="noopener">[Link]</a></p>
       </div>
     </div>
-
   </div>
 </section>
 
