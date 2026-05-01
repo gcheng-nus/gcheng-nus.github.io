@@ -146,6 +146,7 @@
 
           return section ? { link: link, section: section } : null;
         }).filter(Boolean);
+        var landingSection = document.getElementById('hero');
         var activeTicking = false;
 
         function updateActiveSection() {
@@ -156,6 +157,12 @@
 
           var navOffset = nav ? nav.offsetHeight : 0;
           var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+          if (landingSection && landingSection.getBoundingClientRect().bottom > navOffset + 1) {
+            setActiveLink(null);
+            return;
+          }
+
           var activeItem = null;
           var activeVisible = 0;
 
