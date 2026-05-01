@@ -181,34 +181,3 @@ redirect_from:
     </div>
   </div>
 </section>
-
-<!-- <section id="education" class="academic-section academic-section--band">
-  <div class="academic-container fade-in">
-    <h2 class="section-title">Education</h2>
-
-    <ul class="degree-list">
-      <li class="degree-item">
-        <div>
-          <p class="degree-title">Ph.D. in Operations Research and Analytics</p>
-          <p class="degree-school">National University of Singapore</p>
-          <p class="degree-detail">Advisors: Joel Goh, Sidika Tunc Candogan</p>
-        </div>
-        <span class="degree-period">2020 - Present</span>
-      </li>
-      <li class="degree-item">
-        <div>
-          <p class="degree-title">M.S. in Management Science and Engineering</p>
-          <p class="degree-school">University of Science and Technology of China</p>
-        </div>
-        <span class="degree-period">2016 - 2019</span>
-      </li>
-      <li class="degree-item">
-        <div>
-          <p class="degree-title">B.S. in Industrial Engineering</p>
-          <p class="degree-school">Jiangnan University</p>
-        </div>
-        <span class="degree-period">2012 - 2016</span>
-      </li>
-    </ul>
-  </div> -->
-<!-- </section> -->
