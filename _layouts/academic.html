@@ -20,27 +20,29 @@
 
   <body class="academic-site{% if page.url == "/" %} academic-site--home{% endif %}">
     <nav id="academic-nav" class="academic-nav" aria-label="Primary navigation">
-      <a class="academic-brand" href="{{ '/' | relative_url }}">{{ site.name | default: "Guang Cheng" }}</a>
-      <button class="academic-menu-toggle" type="button" aria-expanded="false" aria-controls="academic-nav-links" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="academic-nav-links" class="academic-nav__links">
-        {% for link in site.data.navigation.main %}
-          {% assign link_section = "" %}
-          {% if link.url contains "#" %}
-            {% assign link_section = link.url | split: "#" | last %}
-          {% endif %}
-          <li>
-            <a
-              {% if link_section != "" %}data-section="{{ link_section }}"{% endif %}
-              {% if page.url == link.url or page.title == link.title %}class="academic-nav__pill" aria-current="page"{% endif %}
-              href="{{ link.url | relative_url }}"
-            >{{ link.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+      <div class="academic-nav__inner">
+        <a class="academic-brand" href="{{ '/' | relative_url }}">{{ site.name | default: "Guang Cheng" }}</a>
+        <button class="academic-menu-toggle" type="button" aria-expanded="false" aria-controls="academic-nav-links" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul id="academic-nav-links" class="academic-nav__links">
+          {% for link in site.data.navigation.main %}
+            {% assign link_section = "" %}
+            {% if link.url contains "#" %}
+              {% assign link_section = link.url | split: "#" | last %}
+            {% endif %}
+            <li>
+              <a
+                {% if link_section != "" %}data-section="{{ link_section }}"{% endif %}
+                {% if page.url == link.url or page.title == link.title %}class="academic-nav__pill" aria-current="page"{% endif %}
+                href="{{ link.url | relative_url }}"
+              >{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </nav>
 
     {{ content }}

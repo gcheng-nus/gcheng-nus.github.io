@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---  
 
-<section class="academic-section academic-section--landing" aria-labelledby="home-intro-title">
+<section id="hero" class="academic-section academic-section--landing" aria-labelledby="home-intro-title">
   <div class="academic-container">
     <div class="intro-hero fade-in">
       <h1 id="home-intro-title" class="intro-name">Guang Cheng</h1>

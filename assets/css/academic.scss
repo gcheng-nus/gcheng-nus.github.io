@@ -2,13 +2,13 @@
 ---
 
 :root {
-  --academic-bg: #fafafa;
-  --academic-fg: #1a1d23;
-  --academic-muted: #667085;
-  --academic-border: #e4e7ec;
-  --academic-primary: #2c4a7c;
-  --academic-primary-strong: #203a64;
-  --academic-band: #f3f5f7;
+  --academic-bg: #fff;
+  --academic-fg: #1d1d1f;
+  --academic-muted: #6e6e73;
+  --academic-border: #d2d2d7;
+  --academic-primary: #0071e3;
+  --academic-primary-strong: #0077ed;
+  --academic-band: #f5f5f7;
   --academic-accent: #8a5b23;
   --academic-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --academic-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
@@ -59,74 +59,82 @@ body.academic-site.is-locked {
   left: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: background 180ms ease, border-color 180ms ease;
+}
+
+.academic-nav__inner {
+  position: relative;
+  display: flex;
+  width: min(980px, 100%);
+  min-height: 48px;
+  align-items: center;
   justify-content: space-between;
-  min-height: 64px;
-  padding: 0 40px;
-  border-bottom: 1px solid transparent;
-  background: rgba(250, 250, 250, 0);
-  transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .academic-nav.is-scrolled,
 .academic-nav:focus-within {
-  border-color: var(--academic-border);
-  background: rgba(250, 250, 250, 0.9);
-  box-shadow: 0 1px 4px rgba(16, 24, 40, 0.06);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  border-color: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.78);
 }
 
-.academic-brand {
+.academic-site .academic-brand {
   color: var(--academic-fg);
-  font-size: 1.05rem;
-  font-weight: 650;
+  font-size: 0.875rem;
+  font-weight: 600;
   line-height: 1;
 }
 
-.academic-brand:hover {
+.academic-site .academic-brand:hover {
+  color: var(--academic-fg);
   text-decoration: none;
 }
 
 .academic-nav__links {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 24px;
   margin: 0;
-  padding: 6px;
-  border: 1px solid rgba(16, 24, 40, 0.04);
-  border-radius: 999px;
-  background: #ededf2;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
   list-style: none;
 }
 
 .academic-nav__links a {
   display: inline-flex;
-  min-height: 42px;
+  min-height: 48px;
   align-items: center;
   justify-content: center;
-  padding: 0 26px;
-  border-radius: 999px;
-  color: var(--academic-muted);
-  font-size: 0.9rem;
-  font-weight: 550;
+  padding: 0;
+  border-radius: 0;
+  color: rgba(29, 29, 31, 0.8);
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .academic-nav__links a:hover {
-  background: rgba(255, 255, 255, 0.46);
+  background: transparent;
   color: var(--academic-fg);
   text-decoration: none;
 }
 
 .academic-nav__links .academic-nav__pill {
-  background: var(--academic-fg);
-  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.18);
-  color: #fff;
+  background: transparent;
+  box-shadow: none;
+  color: var(--academic-fg);
 }
 
 .academic-nav__links .academic-nav__pill:hover {
-  background: var(--academic-primary);
-  color: #fff;
+  background: transparent;
+  color: var(--academic-fg);
 }
 
 .academic-menu-toggle {
@@ -194,14 +202,16 @@ body.academic-site.is-locked {
 }
 
 .academic-section--landing {
-  min-height: 72vh;
-  display: flex;
-  align-items: center;
-  padding-top: 136px;
-  padding-bottom: 96px;
-  border-bottom: 1px solid var(--academic-border);
-  background: #f5f5f7;
+  min-height: 0;
+  display: block;
+  padding: 160px 24px 128px;
+  border-bottom: 0;
+  background: var(--academic-band);
   text-align: center;
+}
+
+.academic-section--landing .academic-container {
+  width: min(980px, 100%);
 }
 
 .academic-container {
@@ -210,38 +220,44 @@ body.academic-site.is-locked {
 }
 
 .intro-hero {
-  width: min(760px, 100%);
+  width: min(640px, 100%);
   margin: 0 auto;
 }
 
 .intro-name {
-  margin: 0;
+  margin: 0 0 24px;
   color: var(--academic-fg);
-  font-size: 4.6rem;
+  font-size: 5rem;
   font-weight: 700;
-  line-height: 1.04;
+  line-height: 1.1;
   letter-spacing: 0;
 }
 
 .intro-lede {
-  max-width: 700px;
-  margin: 28px auto 0;
-  color: #686c75;
-  font-size: 1.34rem;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: var(--academic-muted);
+  font-size: 1.375rem;
   font-weight: 500;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 .intro-actions {
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
-  margin-top: 42px;
+  margin-top: 0;
 }
 
-.intro-button {
-  min-height: 52px;
-  padding: 0 30px;
+.academic-site .academic-button.intro-button {
+  min-height: 0;
+  padding: 14px 24px;
+  border-width: 0;
   border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.25;
 }
 
 .hero-grid {
@@ -635,8 +651,8 @@ body.academic-site.is-locked {
 }
 
 .academic-site .academic-button--primary:hover {
-  border-color: #0066cc;
-  background: #0066cc;
+  border-color: var(--academic-primary-strong);
+  background: var(--academic-primary-strong);
   color: #fff;
   text-decoration: none;
 }
@@ -688,8 +704,8 @@ body.academic-site.is-locked {
 
 @media (max-width: 840px) {
   .academic-nav {
-    min-height: 62px;
-    padding: 0 22px;
+    min-height: 48px;
+    padding: 0 24px;
   }
 
   .academic-menu-toggle {
@@ -760,9 +776,8 @@ body.academic-site.is-locked {
   }
 
   .academic-section--landing {
-    min-height: 64vh;
-    padding-top: 116px;
-    padding-bottom: 80px;
+    min-height: 0;
+    padding: 132px 24px 96px;
   }
 
   .academic-section--hero {
@@ -771,11 +786,11 @@ body.academic-site.is-locked {
   }
 
   .intro-name {
-    font-size: 3.3rem;
+    font-size: 4rem;
   }
 
   .intro-lede {
-    font-size: 1.16rem;
+    font-size: 1.25rem;
   }
 
   .hero-grid {
@@ -825,22 +840,21 @@ body.academic-site.is-locked {
 
   .academic-section--landing {
     min-height: 0;
-    padding-top: 110px;
-    padding-bottom: 64px;
+    padding: 120px 24px 88px;
   }
 
   .intro-name {
-    font-size: 2.55rem;
+    font-size: 2.85rem;
   }
 
   .intro-lede {
-    margin-top: 20px;
-    font-size: 1.02rem;
+    margin-bottom: 32px;
+    font-size: 1.0625rem;
     line-height: 1.6;
   }
 
   .intro-actions {
-    margin-top: 32px;
+    margin-top: 0;
   }
 
   .paper-item,
