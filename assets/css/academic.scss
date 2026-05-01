@@ -226,6 +226,10 @@ body.academic-site.is-locked {
   margin: 0 auto;
 }
 
+.intro-avatar {
+  margin: 0 auto 28px;
+}
+
 .intro-name {
   margin: 0 0 24px;
   color: var(--academic-fg);
@@ -262,17 +266,6 @@ body.academic-site.is-locked {
   line-height: 1.25;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 76px;
-  align-items: start;
-}
-
-.profile-panel {
-  min-width: 0;
-}
-
 .avatar {
   width: 180px;
   height: 180px;
@@ -290,40 +283,10 @@ body.academic-site.is-locked {
   object-fit: cover;
 }
 
-.hero-name {
-  margin: 0 0 12px;
-  color: var(--academic-fg);
-  font-size: 2rem;
-  font-weight: 650;
-  line-height: 1.1;
-  letter-spacing: 0;
-}
-
-.hero-title,
-.hero-institution,
-.hero-contact {
-  margin: 0;
-  color: var(--academic-muted);
-}
-
-.hero-title {
-  font-size: 1rem;
-}
-
-.hero-institution {
-  margin-top: 4px;
-  font-size: 0.9rem;
-  line-height: 1.55;
-}
-
-.hero-contact {
-  margin-top: 20px;
-  font-size: 0.9rem;
-  line-height: 1.8;
-}
-
-.hero-contact p {
-  margin: 0;
+.about-content {
+  width: min(760px, 100%);
+  margin: 0 auto;
+  text-align: center;
 }
 
 .bio p {
@@ -361,10 +324,21 @@ body.academic-site.is-locked {
   margin-top: 48px;
 }
 
+.about-content .section-subtitle {
+  max-width: 560px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
+}
+
+.about-content .interests-grid {
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .eyebrow {
@@ -395,6 +369,11 @@ body.academic-site.is-locked {
   list-style: disc;
   padding: 4px 0;
   margin-left: 20px;
+}
+
+.about-content .interest-list li {
+  margin-left: 0;
+  list-style: none;
 }
 
 .papers-group {
@@ -799,19 +778,10 @@ body.academic-site.is-locked {
     font-size: 1.25rem;
   }
 
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
   .avatar {
     width: 128px;
     height: 128px;
     margin-bottom: 22px;
-  }
-
-  .hero-name {
-    font-size: 1.8rem;
   }
 
   .section-title {

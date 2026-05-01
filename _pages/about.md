@@ -12,6 +12,9 @@ redirect_from:
 <section id="hero" class="academic-section academic-section--landing" aria-labelledby="home-intro-title">
   <div class="academic-container">
     <div class="intro-hero fade-in">
+      <div class="avatar intro-avatar">
+        <img src="{{ '/images/profile.png' | relative_url }}" alt="Guang Cheng">
+      </div>
       <h1 id="home-intro-title" class="intro-name">Guang Cheng</h1>
       <p class="intro-lede">From data to better healthcare decisions.</p>
       <div class="intro-actions">
@@ -23,49 +26,30 @@ redirect_from:
 
 <section id="about" class="academic-section academic-section--about">
   <div class="academic-container">
-    <div class="hero-grid fade-in">
-      <div class="profile-panel">
-        <div class="avatar">
-          <img src="{{ '/images/profile.png' | relative_url }}" alt="Guang Cheng">
-        </div>
-        <h2 class="hero-name">Guang Cheng</h2>
-        <p class="hero-title">Ph.D. Candidate</p>
-        <p class="hero-institution">
-          Institute of Operations Research and Analytics (IORA)<br>
-          National University of Singapore (NUS)
-        </p>
-        <div class="hero-contact">
-          <p>#04-01, Innovation 4.0</p>
-          <p>3 Research Link, Singapore 117602</p>
-          <p><a href="mailto:gcheng@u.nus.edu">gcheng@u.nus.edu</a></p>
-        </div>
+    <div class="about-content fade-in">
+      <div class="bio">
+        <p>I am a Ph.D. candidate in Institute of Operations Research and Analytics at the National University of Singapore, advised by <a href="https://www.joelgoh.net/" target="_blank" rel="noopener">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" rel="noopener">Sidika Tunc Candogan</a>.</p>
+        <p>My research focuses on practitioner-inspired and data-grounded problems in healthcare operations. Methodologically, I apply analytical modeling, empirical analysis, and field experimentation to develop evidence-based tools for decision-making in healthcare delivery. By bridging analytics with real-world implementation, my work generates insights that inform hospital and digital healthcare platform operations.</p>
+        <p>My overall goal as a researcher is to improve healthcare delivery and, ultimately, the quality of patient care.</p>
       </div>
 
-      <div>
-        <div class="bio">
-          <p>I am a Ph.D. candidate in Institute of Operations Research and Analytics at the National University of Singapore, advised by <a href="https://www.joelgoh.net/" target="_blank" rel="noopener">Joel Goh</a> and <a href="https://www.sidikatunccandogan.com/" target="_blank" rel="noopener">Sidika Tunc Candogan</a>.</p>
-          <p>My research focuses on practitioner-inspired and data-grounded problems in healthcare operations. Methodologically, I apply analytical modeling, empirical analysis, and field experimentation to develop evidence-based tools for decision-making in healthcare delivery. By bridging analytics with real-world implementation, my work generates insights that inform hospital and digital healthcare platform operations.</p>
-          <p>My overall goal as a researcher is to improve healthcare delivery and, ultimately, the quality of patient care.</p>
-        </div>
-
-        <div class="interests">
-          <h2 class="section-subtitle">Research Interests</h2>
-          <div class="interests-grid">
-            <div>
-              <p class="eyebrow">Topics</p>
-              <ul class="interest-list">
-                <li>Data-Driven Healthcare Operations</li>
-                <li>Digital Health Platforms</li>
-              </ul>
-            </div>
-            <div>
-              <p class="eyebrow">Methodologies</p>
-              <ul class="interest-list">
-                <li>Econometric Analysis</li>
-                <li>Field Experiments</li>
-                <li>Data Analytics</li>
-              </ul>
-            </div>
+      <div class="interests">
+        <h2 class="section-subtitle">Research Interests</h2>
+        <div class="interests-grid">
+          <div>
+            <p class="eyebrow">Topics</p>
+            <ul class="interest-list">
+              <li>Data-Driven Healthcare Operations</li>
+              <li>Digital Health Platforms</li>
+            </ul>
+          </div>
+          <div>
+            <p class="eyebrow">Methodologies</p>
+            <ul class="interest-list">
+              <li>Econometric Analysis</li>
+              <li>Field Experiments</li>
+              <li>Data Analytics</li>
+            </ul>
           </div>
         </div>
       </div>
