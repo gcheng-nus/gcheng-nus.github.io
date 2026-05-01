@@ -384,6 +384,10 @@ body.academic-site {
   min-width: 0;
 }
 
+.interests-grid > div:first-child .eyebrow {
+  margin-left: 8px;
+}
+
 .eyebrow {
   margin: 0 0 14px;
   color: var(--academic-fg);
