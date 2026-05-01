@@ -9,14 +9,26 @@ redirect_from:
   - /about.html
 ---  
 
-<section id="about" class="academic-section academic-section--hero">
+<section class="academic-section academic-section--landing" aria-labelledby="home-intro-title">
+  <div class="academic-container">
+    <div class="intro-hero fade-in">
+      <h1 id="home-intro-title" class="intro-name">Guang Cheng</h1>
+      <p class="intro-lede">From Data to Better Healthcare Decisions.</p>
+      <div class="intro-actions">
+        <a class="academic-button academic-button--primary intro-button" href="{{ '/cv/' | relative_url }}">View CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="academic-section academic-section--about">
   <div class="academic-container">
     <div class="hero-grid fade-in">
       <div class="profile-panel">
         <div class="avatar">
           <img src="{{ '/images/profile.png' | relative_url }}" alt="Guang Cheng">
         </div>
-        <h1 class="hero-name">Guang Cheng</h1>
+        <h2 class="hero-name">Guang Cheng</h2>
         <p class="hero-title">Ph.D. Candidate</p>
         <p class="hero-institution">
           Institute of Operations Research and Analytics (IORA)<br>
