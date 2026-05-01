@@ -217,12 +217,13 @@ redirect_from:
         </ul>
       </div>
 
-      {% assign misc_photos = "Bali Seaview|Bali Sunset|Durham|Grand Canyon|Hong Kong Ham Tin Wan|Jeju Hallasan|Jeju Island|Jeju|London|East Coast Park, Singapore|Marina Bay Sands, Singapore|Valle|Sai Kung East Park, Hong Kong" | split: "|" %}
+      {% assign misc_photos = site.static_files | where_exp: "file", "file.path contains '/photos/'" | sort: "path" %}
       <div class="photo-grid">
         {% for photo in misc_photos %}
+          {% assign photo_title = photo.name | remove: photo.extname | replace: "-", " " | replace: "_", " " %}
           <figure class="photo-card">
-            <img src="{{ '/photos/' | append: photo | append: '.jpeg' | relative_url }}" alt="{{ photo }}">
-            <figcaption>{{ photo }}</figcaption>
+            <img src="{{ photo.path | relative_url }}" alt="{{ photo_title }}">
+            <figcaption>{{ photo_title }}</figcaption>
           </figure>
         {% endfor %}
       </div>
