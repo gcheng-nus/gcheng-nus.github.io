@@ -71,7 +71,7 @@ redirect_from:
       <div class="paper-item">
         <span class="paper-num">1</span>
         <p class="paper-title">Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU</p>
-        <p class="paper-text">Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi (2025). "Extubation Decisions with Predictive Information for Mechanically Ventilated Patients in the ICU." <em>Management Science</em>, 71(7):6069-6091. <a class="paper-link" href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" rel="noopener">[Link]</a></p>
+        <p class="paper-text">Guang Cheng, Jingui Xie, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi. 2025. <em>Management Science</em>, 71(7):6069-6091. <a class="paper-link" href="https://doi.org/10.1287/mnsc.2021.01427" target="_blank" rel="noopener">[Link]</a></p>
       </div>
 
       <div class="paper-item">
