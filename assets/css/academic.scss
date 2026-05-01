@@ -293,7 +293,7 @@ body.academic-site.is-locked {
 .about-content {
   width: min(760px, 100%);
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .bio p {
@@ -333,8 +333,7 @@ body.academic-site.is-locked {
 
 .about-content .section-subtitle {
   max-width: 560px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .interests-grid {
@@ -345,7 +344,7 @@ body.academic-site.is-locked {
 
 .about-content .interests-grid {
   max-width: 640px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .eyebrow {
@@ -379,8 +378,8 @@ body.academic-site.is-locked {
 }
 
 .about-content .interest-list li {
-  margin-left: 0;
-  list-style: none;
+  margin-left: 20px;
+  list-style: disc;
 }
 
 .papers-group {
