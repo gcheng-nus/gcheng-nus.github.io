@@ -387,7 +387,7 @@ body.academic-site {
 .eyebrow {
   margin: 0 0 14px;
   color: var(--academic-fg);
-  font-size: 0.72rem;
+  font-size: 0.86rem;
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: 0;
@@ -408,7 +408,8 @@ body.academic-site {
 
 .interest-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 10px;
   list-style: none;
 }
