@@ -559,8 +559,9 @@ body.academic-site {
 
 .teaching-photo {
   overflow: hidden;
-  margin: 0 0 18px;
-  aspect-ratio: 21 / 9;
+  width: 100%;
+  margin: 0 auto 18px;
+  aspect-ratio: 16 / 9;
   border: 1px solid var(--academic-border);
   border-radius: var(--academic-card-radius);
   background: var(--academic-bg);
@@ -572,7 +573,7 @@ body.academic-site {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 68%;
+  object-position: center center;
 }
 
 .teaching-role {
