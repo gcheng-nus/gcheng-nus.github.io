@@ -283,6 +283,13 @@ body.academic-site.is-locked {
   object-fit: cover;
 }
 
+.avatar.intro-avatar {
+  width: 360px;
+  height: 360px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .about-content {
   width: min(760px, 100%);
   margin: 0 auto;
@@ -782,6 +789,11 @@ body.academic-site.is-locked {
     width: 128px;
     height: 128px;
     margin-bottom: 22px;
+  }
+
+  .avatar.intro-avatar {
+    width: 256px;
+    height: 256px;
   }
 
   .section-title {
