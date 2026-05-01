@@ -81,6 +81,7 @@ redirect_from:
         <p class="paper-text">Guang Cheng, Sarah Yini Gao, Yancheng Yuan, Chenxiao Zhang, Zhichao Zheng</p> 
         <p class="paper-text"><em>INFORMS Journal on Applied Analytics</em>, 2022, 52(6):524-538. <a class="paper-link" href="https://doi.org/10.1287/inte.2022.1117" target="_blank" rel="noopener">[Link]</a></p>
       </div>
+    </div>
 
     <div class="papers-group">
       <h3 class="section-subtitle">Working Papers</h3>
@@ -125,7 +126,7 @@ redirect_from:
       </div>
     </div>
 
-    <!-- <div class="papers-group">
+    <div class="papers-group">
       <h3 class="section-subtitle">Practitioner-Oriented Publications</h3>
 
       <div class="paper-item">
@@ -141,7 +142,7 @@ redirect_from:
         <p class="paper-text">Jingui Xie, Guang Cheng, Zhichao Zheng, Haidong Luo, Oon Cheong Ooi</p> 
         <p class="paper-text"><em>Journal of Cardiac Surgery</em>, 2019, 34(10):1004-1011. <a class="paper-link" href="https://doi.org/10.1111/jocs.14189" target="_blank" rel="noopener">[Link]</a></p>
       </div>
-    </div> -->
+    </div>
   </div>
 </section>
 
