@@ -160,8 +160,8 @@ redirect_from:
 
     <div class="teaching-role">
       <h3 class="section-subtitle">Instructor</h3>
-      <p class="course-title">DAO1704 Decision Analytics using Spreadsheets <span class="muted-note">(BBA Core)</span></p>
-      <p class="course-meta">Spring 2023</p>
+      <span class="teaching-course">DAO1704 Decision Analytics using Spreadsheets<span class="muted-note">(BBA Core)</span></span>
+      <span class="teaching-term">Spring 2023</span>
       <ul class="course-details">
         <li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
         <li>Teaching Excellence Award for Graduate Instructor</li>
@@ -177,16 +177,16 @@ redirect_from:
       <h3 class="section-subtitle">Guest Lecturer</h3>
       <ul class="guest-lecture-list">
         <li>
-          <span class="guest-course">DOS3703 Service Operations Management <span class="muted-note">(BBA)</span></span>
-          <span class="guest-term">Spring 2026</span>
+          <span class="teaching-course">DOS3703 Service Operations Management <span class="muted-note">(BBA)</span></span>
+          <span class="teaching-term">Spring 2026</span>
         </li>
         <li>
-          <span class="guest-course">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></span>
-          <span class="guest-term">Spring 2025</span>
+          <span class="teaching-course">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></span>
+          <span class="teaching-term">Spring 2025</span>
         </li>
         <li>
-          <span class="guest-course">PHM5014 Causal Inference in Precision Medicine <span class="muted-note">(MScPHM)</span></span>
-          <span class="guest-term">Fall 2024</span>
+          <span class="teaching-course">PHM5014 Causal Inference in Precision Medicine <span class="muted-note">(MScPHM)</span></span>
+          <span class="teaching-term">Fall 2024</span>
         </li>
       </ul>
     </div>
@@ -195,16 +195,16 @@ redirect_from:
       <h3 class="section-subtitle">Teaching Assistant</h3>
       <ul class="ta-list">
         <li>
-          <p class="ta-course">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></p>
-          <p class="ta-term">Spring 2025</p>
+          <span class="teaching-course">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></span>
+          <span class="teaching-term">Spring 2025</span>
         </li>
         <li>
-          <p class="ta-course">DBA5103 Operations Research and Analytics <span class="muted-note">(MSBA)</span></p>
-          <p class="ta-term">Fall 2022</p>
+          <span class="teaching-course">DBA5103 Operations Research and Analytics <span class="muted-note">(MSBA)</span></span>
+          <span class="teaching-term">Fall 2022</span>
         </li>
         <li>
-          <p class="ta-course">IE4214 Revenue Management and Pricing Analytics <span class="muted-note">(BEng)</span></p>
-          <p class="ta-term">Spring 2022</p>
+          <span class="teaching-course">IE4214 Revenue Management and Pricing Analytics <span class="muted-note">(BEng)</span></span>
+          <span class="teaching-term">Spring 2022</span>
         </li>
       </ul>
     </div>
