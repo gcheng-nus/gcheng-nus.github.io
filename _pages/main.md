@@ -174,6 +174,7 @@ redirect_from:
             <p>"He is very enthusiastic and passionate! He goes the extra mile in ensuring students have enough feedback, practice, and consultation time."</p>
           </div>
         </li>
+      </ul>
     </div>
 
     <div class="teaching-role">
