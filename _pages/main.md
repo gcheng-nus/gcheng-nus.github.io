@@ -175,17 +175,20 @@ redirect_from:
 
     <div class="teaching-role">
       <h3 class="section-subtitle">Guest Lecturer</h3>
-      <!--  -->
-      <p class="course-title">DOS3703 Service Operations Management <span class="muted-note">(BBA)</span></p>
-      <p class="course-meta">Spring 2026</p>
-
-      <p class="course-title course-title--spaced">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></p>
-      <p class="course-meta">Spring 2025</p>
-      <p class="course-note">Delivered two lectures on machine learning techniques and their applications.</p>
-
-      <p class="course-title course-title--spaced">PHM5014 Causal Inference in Precision Medicine <span class="muted-note">(MScPHM)</span></p>
-      <p class="course-meta">Fall 2024</p>
-      <p class="course-note">Presented the Safe Space experiment to illustrate real-world applications of causal inference.</p>
+      <ul class="guest-lecture-list">
+        <li>
+          <span class="guest-course">DOS3703 Service Operations Management <span class="muted-note">(BBA)</span></span>
+          <span class="guest-term">Spring 2026</span>
+        </li>
+        <li>
+          <span class="guest-course">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></span>
+          <span class="guest-term">Spring 2025</span>
+        </li>
+        <li>
+          <span class="guest-course">PHM5014 Causal Inference in Precision Medicine <span class="muted-note">(MScPHM)</span></span>
+          <span class="guest-term">Fall 2024</span>
+        </li>
+      </ul>
     </div>
 
     <div class="teaching-role">
