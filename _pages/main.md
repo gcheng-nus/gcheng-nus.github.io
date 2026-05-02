@@ -13,7 +13,7 @@ redirect_from:
   <div class="academic-container">
     <div class="intro-hero fade-in">
       <div class="avatar intro-avatar">
-        <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Guang Cheng">
+        <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Guang Cheng">
       </div>
       <h1 id="home-intro-title" class="intro-name">Guang Cheng</h1>
       <p class="intro-lede">From data to better healthcare decisions.</p>
