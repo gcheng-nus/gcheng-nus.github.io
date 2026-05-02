@@ -598,11 +598,8 @@ body.academic-site {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  list-style: none;
 }
-
-// .teaching-list {
-//   list-style: none;
-// }
 
 .teaching-list li {
   display: flex;
@@ -610,7 +607,6 @@ body.academic-site {
   align-items: baseline;
   justify-content: space-between;
   gap: 4px 18px;
-  list-style: none;
 }
 
 .teaching-course {
