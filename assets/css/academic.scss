@@ -415,16 +415,12 @@ body.academic-site {
   padding: 0;
 }
 
-.teaching-list {
-  list-style: none;
-}
-
 .interest-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  // list-style: none;
+  list-style: none;
 }
 
 .interest-list li {
@@ -604,12 +600,17 @@ body.academic-site {
   gap: 12px;
 }
 
+// .teaching-list {
+//   list-style: none;
+// }
+
 .teaching-list li {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
   gap: 4px 18px;
+  list-style: none;
 }
 
 .teaching-course {
