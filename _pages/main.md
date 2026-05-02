@@ -160,17 +160,20 @@ redirect_from:
 
     <div class="teaching-role">
       <h3 class="section-subtitle">Instructor</h3>
-      <span class="teaching-course">DAO1704 Decision Analytics using Spreadsheets<span class="muted-note">(BBA Core)</span></span>
-      <span class="teaching-term">Spring 2023</span>
-      <ul class="course-details">
-        <li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
-        <li>Teaching Excellence Award for Graduate Instructor</li>
-      </ul>
-      <div class="student-quotes">
-        <p>"Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Guang as my class tutor."</p>
-        <p>"I could see the improvement in his teaching after every class. He is one of the most dedicated teachers I have ever seen."</p>
-        <p>"He is very enthusiastic and passionate! He goes the extra mile in ensuring students have enough feedback, practice, and consultation time."</p>
-      </div>
+      <ul class="guest-lecture-list">
+        <li>
+          <span class="teaching-course">DAO1704 Decision Analytics using Spreadsheets<span class="muted-note">(BBA Core)</span></span>
+          <span class="teaching-term">Spring 2023</span>
+          <ul class="course-details">
+            <li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
+            <li>Teaching Excellence Award for Graduate Instructor</li>
+          </ul>
+          <div class="student-quotes">
+            <p>"Guang tries his best to explain concepts clearly. He also regularly provides feedback and tries his best to engage the class, and encourage students to speak up. I am grateful to have Guang as my class tutor."</p>
+            <p>"I could see the improvement in his teaching after every class. He is one of the most dedicated teachers I have ever seen."</p>
+            <p>"He is very enthusiastic and passionate! He goes the extra mile in ensuring students have enough feedback, practice, and consultation time."</p>
+          </div>
+        </li>
     </div>
 
     <div class="teaching-role">
@@ -193,7 +196,7 @@ redirect_from:
 
     <div class="teaching-role">
       <h3 class="section-subtitle">Teaching Assistant</h3>
-      <ul class="ta-list">
+      <ul class="guest-lecture-list">
         <li>
           <span class="teaching-course">DBA4811 Analytics for Consulting <span class="muted-note">(BBA)</span></span>
           <span class="teaching-term">Spring 2025</span>
