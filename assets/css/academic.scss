@@ -408,15 +408,13 @@ body.academic-site {
 }
 
 .interest-list,
-.ta-list,
 .teaching-list,
-.teaching-details,
+.teaching-highlight,
 .paper-highlights {
   margin: 0;
   padding: 0;
 }
 
-.ta-list,
 .teaching-list {
   list-style: none;
 }
@@ -426,7 +424,7 @@ body.academic-site {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  list-style: none;
+  // list-style: none;
 }
 
 .interest-list li {
@@ -600,22 +598,6 @@ body.academic-site {
   line-height: 1.5;
 }
 
-.course-title--spaced {
-  margin-top: 18px;
-}
-
-.course-meta,
-.course-note,
-.ta-term {
-  color: var(--academic-muted);
-  font-size: 0.84rem;
-}
-
-.course-meta,
-.course-note {
-  margin: 4px 0 0;
-}
-
 .teaching-list {
   display: flex;
   flex-direction: column;
@@ -645,14 +627,14 @@ body.academic-site {
   white-space: nowrap;
 }
 
-.teaching-details {
+.teaching-highlight {
   margin-top: 12px;
   padding-left: 18px;
   color: var(--academic-muted);
   list-style: disc;
 }
 
-.teaching-details li {
+.teaching-highlight li {
   padding: 3px 0;
   font-size: 0.88rem;
 }
@@ -672,30 +654,6 @@ body.academic-site {
   font-size: 0.84rem;
   font-style: italic;
   line-height: 1.65;
-}
-
-.ta-list li {
-  padding: 0 0;
-  margin-bottom: 12px;
-}
-
-.ta-list li:first-child {
-  padding-top: 0;
-}
-
-.ta-list li:last-child {
-  border-bottom: 0;
-}
-
-.ta-course,
-.ta-term {
-  margin: 0;
-}
-
-.ta-course {
-  color: var(--academic-fg);
-  font-size: 0.96rem;
-  font-weight: 600;
 }
 
 .misc-card {

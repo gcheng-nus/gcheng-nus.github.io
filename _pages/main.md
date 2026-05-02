@@ -164,7 +164,7 @@ redirect_from:
         <li>
           <span class="teaching-course">DAO1704 Decision Analytics using Spreadsheets <span class="teaching-course-level">(BBA Core)</span></span>
           <span class="teaching-term">Spring 2023</span>
-          <ul class="teaching-details">
+          <ul class="teaching-highlight">
             <li>Teaching Evaluation: 4.2/5.0 (Department Average: 4.0)</li>
             <li>Teaching Excellence Award for Graduate Instructor</li>
           </ul>
