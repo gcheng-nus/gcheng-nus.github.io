@@ -36,7 +36,7 @@ redirect_from:
               <path d="M22 21h-4v-6.6c0-1.8-.7-2.8-2.1-2.8-1.6 0-2.5 1.1-2.5 2.8V21h-4V9h3.8v1.6h.1c.6-1.1 2-1.9 3.6-1.9 3.3 0 5.1 2.2 5.1 6V21Z"></path>
             </svg>
           </a>
-          <a class="academic-button academic-button--primary intro-button intro-icon-button" href="https://scholar.google.com/scholar?q=%22Guang+Cheng%22+%22National+University+of+Singapore%22" target="_blank" rel="noopener" aria-label="Guang Cheng on Google Scholar" title="Google Scholar">
+          <a class="academic-button academic-button--primary intro-button intro-icon-button" href="https://scholar.google.com/citations?user=Bu71TnQAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Guang Cheng on Google Scholar" title="Google Scholar">
             <svg class="button-icon button-icon--fill" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="M5.24 13.77 0 9.5 12 0l12 9.5-5.24 4.27C17.55 11.25 15 9.5 12 9.5c-3 0-5.55 1.75-6.76 4.27ZM12 10.5a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5Z"></path>
             </svg>
