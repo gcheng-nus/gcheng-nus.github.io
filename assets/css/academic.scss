@@ -271,8 +271,20 @@ body.academic-site {
 
 .academic-site .academic-button.intro-icon-button {
   width: 44px;
+  height: 44px;
   min-height: 44px;
   padding: 0;
+  border: 2px solid var(--academic-primary);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--academic-primary);
+}
+
+.academic-site .academic-button.intro-icon-button:hover {
+  border-color: var(--academic-primary-strong);
+  background: rgba(0, 113, 227, 0.08);
+  color: var(--academic-primary-strong);
+  text-decoration: none;
 }
 
 .button-icon {
