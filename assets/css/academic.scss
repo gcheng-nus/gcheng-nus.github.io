@@ -242,6 +242,15 @@ body.academic-site {
   line-height: 1.35;
 }
 
+.intro-title {
+  max-width: 600px;
+  margin: 0 auto 36px;
+  color: var(--academic-muted);
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
 .intro-actions {
   display: flex;
   flex-direction: column;
@@ -980,6 +989,10 @@ body.academic-site {
     font-size: 1.25rem;
   }
 
+  .intro-title {
+    font-size: 1.1rem;
+  }
+
   .avatar {
     width: 128px;
     height: 128px;
@@ -1053,6 +1066,12 @@ body.academic-site {
   .intro-lede {
     margin-bottom: 32px;
     font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+
+  .intro-title {
+    margin-bottom: 32px;
+    font-size: 0.98rem;
     line-height: 1.6;
   }
 
