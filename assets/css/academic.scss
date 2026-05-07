@@ -244,10 +244,18 @@ body.academic-site {
 
 .intro-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
   justify-content: center;
   margin-top: 0;
+}
+
+.intro-contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
 }
 
 .academic-site .academic-button.intro-button {
@@ -258,6 +266,30 @@ body.academic-site {
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25;
+}
+
+.academic-site .academic-button.intro-icon-button {
+  width: 44px;
+  min-height: 44px;
+  padding: 0;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+
+.button-icon--fill {
+  fill: currentColor;
+}
+
+.button-icon--stroke {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
 }
 
 .avatar {
