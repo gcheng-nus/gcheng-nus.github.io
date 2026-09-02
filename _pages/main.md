@@ -2,7 +2,7 @@
 layout: academic
 permalink: /
 title: "Guang Cheng"
-excerpt: "Ph.D. candidate in Operations Research and Analytics at the National University of Singapore."
+excerpt: ""
 author_profile: false
 redirect_from: 
   - /about/
